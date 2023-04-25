@@ -12,7 +12,7 @@
 ## 如何使用
 - 转发API Key购买: [佩奇GPT小店](https://peiqi.shop/)
 - 转发Host: https://api.chatanywhere.cn/ 
-- 备用转发Host: https://home.dduo06.cn/ (国内中转，延时更低)
+- 备用转发Host: https://api.chatanywhere.com.cn/ (国内中转，延时更低)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询](https://api.chatanywhere.cn/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.cn才可以使用，大部分插件和软件都可以修改。
 
@@ -24,7 +24,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 下载链接：https://github.com/Bin-Huang/chatbox/releases
 
-使用方法：如图在设置中填入购买的密钥，并将代理设置为 https://api.chatanywhere.cn 或者 https://home.dduo06.cn 即可
+使用方法：如图在设置中填入购买的密钥，并将代理设置为 https://api.chatanywhere.cn 或者 https://api.chatanywhere.com.cn 即可
 
 ![](images/chatbox.png)
 
@@ -33,14 +33,14 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 官网链接：https://chatgpt-sidebar.com/
 
-安装好插件后进入设置页面，如图所示修改设置，将url修改为 https://api.chatanywhere.cn 或者 https://home.dduo06.cn 。
+安装好插件后进入设置页面，如图所示修改设置，将url修改为 https://api.chatanywhere.cn 或者 https://api.chatanywhere.com.cn 。
 
 ![](images/sidebar.png)
 
 ### **Jetbrains插件ChatGPT**
 <img src="./images/jet1.png" width='200'/>
 
-安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 https://api.chatanywhere.cn/v1/chat/completions 或者 https://home.dduo06.cn/v1/chat/completions 。并勾选Customize Server。
+安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 https://api.chatanywhere.cn/v1/chat/completions 或者 https://api.chatanywhere.com.cn/v1/chat/completions 。并勾选Customize Server。
 
 ![](images/jet2.png)
 
