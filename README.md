@@ -8,6 +8,8 @@
 
 免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
+该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`
+
 ## 特点
 1. 支持Models, GPT3.5, DALLE, Embedding。（可以支持AutoGPT）（GPT4将在五月份支持）
 2. 支持流式答复。（即官网一样一个字一个字往外蹦）
