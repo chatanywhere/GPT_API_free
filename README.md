@@ -1,5 +1,5 @@
 # GPT_API_free
- GPT国内可用免费转发API，直连无需代理。可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。
+ GPT国内可用免费转发API，支持GPT4，直连无需代理。可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。
 
 ## 完全免费使用
 向国内开发者免费提供OpenAi接口调用，支持GPT3.5和Embedding模型。
@@ -11,7 +11,7 @@
 该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`
 
 ## 特点
-1. 支持Models, GPT3.5, DALLE, Embedding。（可以支持AutoGPT）（GPT4将在五月份支持）
+1. 支持Models, GPT4, GPT3.5, DALLE, Embedding。（可以支持AutoGPT）（GPT4将在五月份支持）
 2. 支持流式答复。（即官网一样一个字一个字往外蹦）
 3. 无需科学上网，国内环境直接可用
 4. 完全免费使用。
