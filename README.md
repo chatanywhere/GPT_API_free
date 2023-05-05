@@ -1,10 +1,12 @@
 # GPT_API_free
- GPT国内可用免费转发API，支持GPT4，直连无需代理。可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。
+ GPT国内可用免费转发API，支持GPT4 API，直连无需代理。免费API可满足日常使用，可以在AutoGPT中使用，可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。
 
 ## 完全免费使用
 向国内开发者免费提供OpenAi接口调用，支持GPT3.5和Embedding模型。
 
 为了该项目长久发展，免费API限制20请求/小时调用频率，还希望大家多多支持无限制的[低价付费API](https://peiqi.shop/)。
+
+***报错429就是请求频率被限制了***
 
 免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
