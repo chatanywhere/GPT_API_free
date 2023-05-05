@@ -30,6 +30,10 @@
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询](https://api.chatanywhere.cn/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.cn才可以使用，大部分插件和软件都可以修改。
 
+## 最方便的使用方法
+### **前往我们搭建的平台直接使用**
+https://chatapi.chatanywhere.com.cn/
+
 ## 常见软件/插件使用方法
 
 ### **ChatBox(推荐使用)**
