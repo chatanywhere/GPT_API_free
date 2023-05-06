@@ -10,7 +10,7 @@
 
 免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
-该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`
+该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`(国内首选)
 
 ## 特点
 1. 支持Models, GPT4(免费版不支持), GPT3.5, DALLE(免费版不支持), Embedding。（可以支持AutoGPT）
