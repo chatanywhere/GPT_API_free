@@ -10,6 +10,8 @@
 
 免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
+***免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错***
+
 该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`(国内首选)
 
 ## 特点
@@ -24,7 +26,7 @@
 3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用估计能用一年。
 
 ## 如何使用
-- 使用免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a 或 购买付费API Key: [佩奇GPT小店](https://peiqi.shop/)
+- 使用免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a 或 购买付费API Key: [佩奇GPT小店](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错）***
 - 转发Host1: https://api.chatanywhere.cn/ (国外服务器使用)
 - 转发Host2: https://api.chatanywhere.com.cn/ (国内中转，延时更低)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询](https://api.chatanywhere.cn/)
