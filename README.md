@@ -36,6 +36,8 @@
 ### **前往我们搭建的平台直接使用**
 https://chatapi.chatanywhere.com.cn/
 
+***免费Key请勿在这里使用，会报错too many requests***
+
 ## 常见软件/插件使用方法
 
 ### **ChatBox(推荐使用)**
