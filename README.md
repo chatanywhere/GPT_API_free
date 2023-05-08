@@ -40,6 +40,23 @@ https://chatapi.chatanywhere.com.cn/
 
 ## 常见软件/插件使用方法
 
+### **python openai官方库（使用AutoGPT等）**
+***方法一***
+
+```python
+import openai
+openai.api_base = "https://api.chatanywhere.com.cn/v1"
+# openai.api_base = "https://api.chatanywhere.cn/v1"
+```
+
+***方法二***
+
+修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
+```bash
+OPENAI_API_BASE=https://api.chatanywhere.com.cn/v1
+或 OPENAI_API_BASE=https://api.chatanywhere.cn/v1
+```
+
 ### **ChatBox(推荐使用)**
 
 ChatGPT开源桌面应用，支持全部桌面平台。
@@ -87,20 +104,3 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 5. 以上步骤完成后，重启VSCode
 
 - 其他VSCode插件类似。
-
-### **python openai官方库（使用AutoGPT等）**
-***方法一***
-
-```python
-import openai
-openai.api_base = "https://api.chatanywhere.com.cn/v1"
-# openai.api_base = "https://api.chatanywhere.cn/v1"
-```
-
-***方法二***
-
-修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
-```bash
-OPENAI_API_BASE=https://api.chatanywhere.com.cn/v1
-或 OPENAI_API_BASE=https://api.chatanywhere.cn/v1
-```
