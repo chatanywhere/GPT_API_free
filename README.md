@@ -4,9 +4,12 @@
 ## 完全免费使用
 向国内开发者免费提供OpenAi接口调用，支持GPT3.5和Embedding模型。
 
-为了该项目长久发展，免费API限制20请求/小时调用频率，还希望大家多多支持无限制的[低价付费API](https://peiqi.shop/)。
+**免费API Key仅可用于个人非商业用途，教育，非营利性科研工作中。严禁商用！**
+
+为了该项目长久发展，免费API限制120请求/小时调用频率，还希望大家多多支持无限制的[低价付费API](https://peiqi.shop/)。
 
 ***报错429就是请求频率被限制了***
+
 
 免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
