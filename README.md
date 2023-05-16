@@ -54,6 +54,8 @@ https://chatapi.chatanywhere.com.cn/
 ## 常见软件/插件使用方法
 
 ### **python openai官方库（使用AutoGPT等）**
+示例代码请参考[demo.py](./demo.py)
+
 ***方法一***
 
 ```python
