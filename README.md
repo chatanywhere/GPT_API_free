@@ -10,6 +10,8 @@
 
 ***报错429就是请求频率被限制了***
 
+我会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我点一个***Star***。如果遇到问题可以在issues中反馈，有空会解答。
+
 
 免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
@@ -32,9 +34,9 @@
 ## 如何使用
 - 使用免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a 或 购买付费API Key: [佩奇GPT小店](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错）***
 - 转发Host1: https://api.chatanywhere.cn/ (国外服务器使用)
-- 转发Host2: https://api.chatanywhere.com.cn/ (国内中转，延时更低)
-- 余额和使用记录查询（通知公告也会发在这里）: [余额查询](https://api.chatanywhere.cn/)
-- 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.cn才可以使用，大部分插件和软件都可以修改。
+- **转发Host2: https://api.chatanywhere.com.cn/ (国内中转，延时更低，推荐)**
+- 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.cn/)
+- 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.com.cn才可以使用，大部分插件和软件都可以修改。
 
 ## 最方便的使用方法
 ### **前往我们搭建的平台直接使用**
