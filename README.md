@@ -45,6 +45,23 @@
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.cn/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.com.cn才可以使用，大部分插件和软件都可以修改。
 
+## API报错说明
+- Overload错误
+
+具体错误信息：
+```
+{
+  "error": {
+    "message": "That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID xxxxxxxxxxxx in your message.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+```
+该错误由于OpenAI官方服务器负载高引起，与转发服务器负载无关。一般一段时间后恢复，可以等一段时间后再试，具体等待时间可能是几秒钟，也能是半小时。
+
+
 ## 最方便的使用方法
 ### **前往我们搭建的平台直接使用**
 https://chatapi.chatanywhere.com.cn/
