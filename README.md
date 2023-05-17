@@ -140,3 +140,5 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 ## 联系我们
 
 欢迎加入QQ群：188070725
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://star-history.com/#star-history/star-history&Date)
