@@ -88,6 +88,12 @@ openai.api_base = "https://api.chatanywhere.com.cn/v1"
 OPENAI_API_BASE=https://api.chatanywhere.com.cn/v1
 或 OPENAI_API_BASE=https://api.chatanywhere.cn/v1
 ```
+### **开源gpt_academic**
+找到`config.py`文件中的`API_URL_REDIRECT`配置并修改为以下内容：
+```python
+API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.com.cn/v1/chat/completions"}
+# API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.cn/v1/chat/completions"}
+```
 
 ### **ChatBox(推荐使用)**
 
