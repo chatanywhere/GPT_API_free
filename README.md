@@ -4,7 +4,7 @@
 
 支持 **GPT-4** / GPT-3.5-turbo / embeddings / DALL·E / text-davinci
 
-国内直连无需代理
+国内动态加速 直连无需代理
 
 免费Key(请勿在镜像站使用)：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
 
