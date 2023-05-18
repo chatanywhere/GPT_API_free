@@ -46,10 +46,12 @@
 该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`(国内首选)
 
 ## 付费版API
+- [购买低价付费Key](https://peiqi.shop/)
+
 1. **支持GPT4 API**，价格仅官方价格五折。
 1. 性价比高，除了GPT4的其他模型价格相当于官网价格七分之一。
 2. 同官网计费策略，流式问答使用tiktoken库准确计算Tokens，非流式问答直接使用官方返回Tokens用量计费。
-3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用估计能用一年。
+3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用GPT3.5估计能用一年。
 
 ## 如何使用
 - 使用免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a 或 [购买付费API Key](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错）***
