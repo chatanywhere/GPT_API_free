@@ -6,8 +6,6 @@
 
 国内动态加速 直连无需代理
 
-免费Key(请勿在镜像站使用)：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a
-
 [镜像站](https://chatapi.chatanywhere.com.cn/) / [快速开始](#如何使用) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 188070725](https://qm.qq.com/cgi-bin/qm/qr?k=mLPXAqAWpnJgoNFEm5A3fK9u2sNa98zo&jump_from=webapi&authKey=rZBxt+2GslqlsGQyshQvhkqTOz1bTaK0jVBPhCo2lCEf7tTmOa3MiRxJDp6zHAZ3)
