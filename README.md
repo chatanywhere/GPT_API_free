@@ -141,6 +141,18 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 - 其他VSCode插件类似。
 
+### **Raycast 插件 ChatGPT（推荐使用）**
+
+1. 在 Raycast Store 中找到 ChatGPT 插件，并按照提示安装：
+![](images/raycast1.png)
+
+2. 安装完成后在该插件配置中的 `API Key` 中填入免费API Key：`sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a` 或 [付费购买的 API Key](https://peiqi.shop/)，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.com.cn/v1`
+![](images/raycast2.png)
+![](images/raycast3.png)
+
+3. 🍺 enjoy it~
+![](images/raycast4.gif)
+
 ## API报错说明
 - Overload错误
 
