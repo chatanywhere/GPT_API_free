@@ -61,11 +61,12 @@
 ## 常见软件/插件使用方法
 
 ### 最方便的使用方法
-**前往我们搭建的镜像站直接使用**
+为了方便大家使用，我们搭建基于开源项目搭建了两个镜像：
 
-https://chatapi.chatanywhere.com.cn/
+1. 基于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)，国内部署，速度快，稳定。 https://chatapi.chatanywhere.com.cn/ 
+2. 基于[川虎Chat](https://github.com/GaiZhenbiao/ChuanhuChatGPT)，支持联网功能，支持上传PDF分析，国外部署，可能部分人的网络环境访问卡顿。https://chat1.chatanywhere.cn/ 
 
-***免费Key请勿在这里使用，会报错too many requests***
+***由于对IP的访问速率限制，免费Key请勿在这两个上使用，会报错too many requests***
 
 ### **python openai官方库（使用AutoGPT等）**
 示例代码请参考[demo.py](./demo.py)
