@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[镜像站](https://chatapi.chatanywhere.com.cn/) / [快速开始](#如何使用) / [支持付费Key](https://peiqi.shop/)
+[镜像站](https://chatapi.chatanywhere.com.cn/) / [快速开始](#如何使用) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 188070725](https://qm.qq.com/cgi-bin/qm/qr?k=mLPXAqAWpnJgoNFEm5A3fK9u2sNa98zo&jump_from=webapi&authKey=rZBxt+2GslqlsGQyshQvhkqTOz1bTaK0jVBPhCo2lCEf7tTmOa3MiRxJDp6zHAZ3)
 
@@ -28,7 +28,7 @@
 
 ## 免费使用
 
-- **免费API Key: sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a**
+- **🚀[点击领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render)**
 - **转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)**
 - **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
 
@@ -36,10 +36,10 @@
 
 **免费API Key仅可用于个人非商业用途，教育，非营利性科研工作中。严禁商用！**
 
-为了该项目长久发展，免费API限制**120请求/小时/IP**调用频率，还希望大家多多支持无限制的[低价付费API](https://peiqi.shop/)。
+为了该项目长久发展，免费API限制**120请求/小时/IP&Key**调用频率，也就是说你如果在一个IP下使用多个Key，所有Key的每小时请求数总和不能超过120；同理，你如果将一个Key用于多个IP，这个Key的每小时请求数也不能超过120。
 
 
-我会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
+我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
 该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`(国内首选)
 
@@ -52,7 +52,7 @@
 3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用GPT3.5估计能用一年。
 
 ## 如何使用
-- 使用免费API Key：sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a 或 [购买付费API Key](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错）***
+- 🚀[领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错）***
 - 转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)
 - 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.cn/)
