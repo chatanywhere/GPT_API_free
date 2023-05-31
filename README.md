@@ -148,7 +148,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 1. 在 Raycast Store 中找到 ChatGPT 插件，并按照提示安装：
 ![](images/raycast1.png)
 
-2. 安装完成后在该插件配置中的 `API Key` 中填入免费API Key：`sk-0PfcSdT723UR44igwVxvEWvLoZJgi0FJyZWy0WCCATp5ka2a` 或 [付费购买的 API Key](https://peiqi.shop/)，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.com.cn/v1`
+2. 安装完成后在该插件配置中的 `API Key` 中填入我们的API Key，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.com.cn/v1`
 ![](images/raycast2.png)
 ![](images/raycast3.png)
 
@@ -156,7 +156,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 ![](images/raycast4.gif)
 
 ## API报错说明
-- Overload错误以及其他一些官方返回的错误
+- Overload错误
 
 具体错误信息：
 ```
@@ -169,7 +169,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
   }
 }
 ```
-该错误由于OpenAI官方服务器负载高引起，与转发服务器负载无关。一般一段时间后恢复，可以等一段时间后再试，具体等待时间可能是几秒钟，也能是半小时。
+该错误由于OpenAI官方服务器负载高引起，与转发服务器负载无关。一般一段时间后恢复，可以等几秒后再试。
 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://star-history.com/#star-history/star-history&Date)
