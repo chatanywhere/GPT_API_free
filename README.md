@@ -18,6 +18,9 @@
 
 但OpenAI官方会根据其[数据使用政策](https://platform.openai.com/docs/data-usage-policies)保留 30 天的数据。
 
+## 👏广告
+[商业版国内镜像站部署授权](https://docs.chatanywhere.com.cn/) 支持GPT, DALLE, Claude, Azure Openai, Midjourney等集成部署。站内充值，邀请功能一应俱全，详情查看 https://docs.chatanywhere.com.cn/
+
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT3.5, ***GPT4***(免费版不支持), ***DALLE***(免费版不支持)。（免费版就可以支持AutoGPT以及gpt_academic）
 2. 与官方完全一致的接口标准，兼容各种软件/插件。
