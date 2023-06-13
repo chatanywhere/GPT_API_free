@@ -2,7 +2,7 @@
 <img src="./images/logo.svg" alt="icon" width="50px"/>
 <h1 align="center">GPT-API-free</h1>
 
-支持 **GPT-4** / GPT-3.5-turbo / embeddings / DALL·E / text-davinci
+支持 **GPT-4** / **GPT-4-32K-0613** / GPT-3.5-Turbo / GPT-3.5-Turbo-16K / embeddings / DALL·E / text-davinci
 
 国内动态加速 直连无需代理
 
@@ -21,8 +21,11 @@
 ## 👏广告
 [商业版国内镜像站部署授权](https://docs.chatanywhere.com.cn/) 支持GPT, DALLE, Claude, Azure Openai, Midjourney等集成部署。站内充值，邀请功能一应俱全，详情查看 https://docs.chatanywhere.com.cn/
 
+## 更新日志
+**2023年6月14日** 适配0613模型，适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
+
 ## 特点
-1. 支持Models, Embedding, text-davinci, GPT3.5, ***GPT4***(免费版不支持), ***DALLE***(免费版不支持)。（免费版就可以支持AutoGPT以及gpt_academic）
+1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K, ***GPT-4***(免费版不支持), ***GPT-4-32K-0613***(免费版不支持), ***DALLE***(免费版不支持)。（免费版就可以支持AutoGPT以及gpt_academic）
 2. 与官方完全一致的接口标准，兼容各种软件/插件。
 3. 支持流式响应。
 4. 国内线路使用动态加速，体验远优于使用代理连接官方。
