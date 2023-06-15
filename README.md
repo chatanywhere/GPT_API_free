@@ -22,7 +22,9 @@
 [商业版国内镜像站部署授权](https://docs.chatanywhere.com.cn/) 支持GPT, DALLE, Claude, Azure Openai, Midjourney等集成部署。站内充值，邀请功能一应俱全，详情查看 https://docs.chatanywhere.com.cn/
 
 ## 更新日志
-**2023年6月14日** 适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
+- **2023年6月14日** 适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
+
+- **2023年6月15日** 适配0613版本新增的functions。
 
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K, ***GPT-4***(免费版不支持), ***DALLE***(免费版不支持)。（免费版就可以支持AutoGPT以及gpt_academic）
