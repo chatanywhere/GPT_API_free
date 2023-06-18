@@ -2,7 +2,7 @@
 <img src="./images/logo.svg" alt="icon" width="50px"/>
 <h1 align="center">GPT-API-free</h1>
 
-支持 **GPT-4** / GPT-3.5-Turbo / GPT-3.5-Turbo-16K / embeddings / DALL·E / text-davinci
+支持 **GPT-4** / GPT-3.5-Turbo / GPT-3.5-Turbo-16K / embeddings / DALL·E / whisper / text-davinci
 
 国内动态加速 直连无需代理
 
@@ -26,8 +26,10 @@
 
 - **2023年6月15日** 适配0613版本新增的functions。
 
+- **2023年6月18日** 新增对语言转文字模型Whisper支持。
+
 ## 特点
-1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K, ***GPT-4***(免费版不支持), ***DALLE***(免费版不支持)。（免费版就可以支持AutoGPT以及gpt_academic）
+1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K, ***GPT-4***(免费版不支持), ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT以及gpt_academic）
 2. 与官方完全一致的接口标准，兼容各种软件/插件。
 3. 支持流式响应。
 4. 国内线路使用动态加速，体验远优于使用代理连接官方。
