@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[镜像站](https://chatapi.chatanywhere.com.cn/) / [快速开始](#如何使用) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
+[镜像站](https://chatapi.chatanywhere.cn/) / [快速开始](#如何使用) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 188070725](https://qm.qq.com/cgi-bin/qm/qr?k=mLPXAqAWpnJgoNFEm5A3fK9u2sNa98zo&jump_from=webapi&authKey=rZBxt+2GslqlsGQyshQvhkqTOz1bTaK0jVBPhCo2lCEf7tTmOa3MiRxJDp6zHAZ3)
 
@@ -50,7 +50,7 @@
 - **转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)**
 - **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
 
-***免费key请勿用于镜像站 https://chatapi.chatanywhere.com.cn/ 会报错***
+***免费key请勿用于镜像站 https://chatapi.chatanywhere.cn/ 会报错***
 
 我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
@@ -67,7 +67,7 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.com.cn/ 会报错）***
+- 🚀[领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.cn/ 会报错）***
 - 转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)
 - 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.cn/)
@@ -78,7 +78,7 @@
 ### 最方便的使用方法
 为了方便大家使用，我们搭建基于开源项目搭建了两个镜像：
 
-1. 基于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)，国内部署，速度快，稳定。 https://chatapi.chatanywhere.com.cn/ 
+1. 基于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)，国内部署，速度快，稳定。 https://chatapi.chatanywhere.cn/ 
 2. 基于[川虎Chat](https://github.com/GaiZhenbiao/ChuanhuChatGPT)，支持联网功能，支持上传PDF分析，国外部署，可能部分人的网络环境访问卡顿。https://chat1.chatanywhere.cn/ 
 
 ***由于对IP的访问速率限制，免费Key请勿在这两个上使用，会报错too many requests***
