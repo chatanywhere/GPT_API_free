@@ -8,7 +8,7 @@
 
 [镜像站](https://chatapi.chatanywhere.cn/) / [快速开始](#如何使用) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
-[QQ群: 188070725](https://qm.qq.com/cgi-bin/qm/qr?k=mLPXAqAWpnJgoNFEm5A3fK9u2sNa98zo&jump_from=webapi&authKey=rZBxt+2GslqlsGQyshQvhkqTOz1bTaK0jVBPhCo2lCEf7tTmOa3MiRxJDp6zHAZ3)
+[QQ群: 829433227](https://qm.qq.com/cgi-bin/qm/qr?k=pi0iBUwIgrBOH4ndImSQEHpCcWkYfAWj&jump_from=webapi&authKey=H9UwoaXEbgrSK+4ArDlij1Y0/XEEumM+h7+cJPh1OYAkBhch19cHSycBql+fIh+w3)
 
 </div>
 
@@ -60,7 +60,7 @@
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
 - [购买低价付费Key](https://peiqi.shop/)
 
-1. **支持GPT4 API**，价格仅官方价格7折。
+1. **支持GPT4 API**，价格仅官方价格85折。
 2. 性价比高，除了GPT4的其他模型价格相当于官网价格七分之一。
 3. 同官网计费策略，流式问答使用tiktoken库准确计算Tokens，非流式问答直接使用官方返回Tokens用量计费。
 4. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用GPT3.5估计能用一年。
