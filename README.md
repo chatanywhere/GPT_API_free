@@ -84,7 +84,7 @@
 
 ***由于对IP的访问速率限制，免费Key请勿在这两个上使用，会报错too many requests***
 
-### **python openai官方库（使用AutoGPT等）**
+### **python openai官方库（使用AutoGPT，langchain等）**
 示例代码请参考[demo.py](./demo.py)
 
 ***方法一***
@@ -95,7 +95,7 @@ openai.api_base = "https://api.chatanywhere.com.cn/v1"
 # openai.api_base = "https://api.chatanywhere.cn/v1"
 ```
 
-***方法二***
+***方法二（方法一不起作用用这个）***
 
 修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
 ```bash
