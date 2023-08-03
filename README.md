@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[镜像站](https://chatapi.chatanywhere.cn/) / [快速开始](#如何使用) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
+[镜像站](https://chatapi.chatanywhere.cn/) / [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 829433227](https://qm.qq.com/cgi-bin/qm/qr?k=pi0iBUwIgrBOH4ndImSQEHpCcWkYfAWj&jump_from=webapi&authKey=H9UwoaXEbgrSK+4ArDlij1Y0/XEEumM+h7+cJPh1OYAkBhch19cHSycBql+fIh+w3)
 
@@ -17,9 +17,6 @@
 该项目高度重视隐私，致力于保护其用户的隐私。该项目不会以任何方式收集、记录或存储用户输入的任何文本或由 OpenAI 服务器返回的任何文本。该项目不会向 OpenAI 或任何第三方提供有关 API 调用者的身份的任何信息，包括但不限于 IP 地址和用户代理字符串。
 
 但OpenAI官方会根据其[数据使用政策](https://platform.openai.com/docs/data-usage-policies)保留 30 天的数据。
-
-## 👏广告
-[商业版国内镜像站部署授权](https://docs.chatanywhere.com.cn/) 支持GPT, DALLE, Claude, Azure Openai, Midjourney等集成部署。站内充值，邀请功能一应俱全，详情查看 https://docs.chatanywhere.com.cn/
 
 ## 更新日志
 - **2023年6月14日** 适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
@@ -128,7 +125,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 ![](images/sidebar.png)
 
-### **Jetbrains插件ChatGPT**
+### **Jetbrains插件ChatGPT - Easycode**
 <img src="./images/jet1.png" width='200'/>
 
 安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 `https://api.chatanywhere.cn/v1/chat/completions` 或者 `https://api.chatanywhere.com.cn/v1/chat/completions` 。并勾选Customize Server。
