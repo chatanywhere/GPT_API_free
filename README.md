@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./images/logo.svg" alt="icon" width="50px"/>
+<img src="./images/logo.png" alt="icon" width="50px"/>
 <h1 align="center">GPT-API-free</h1>
 
 支持 **GPT-4** / GPT-3.5-Turbo / GPT-3.5-Turbo-16K / embeddings / DALL·E / whisper / text-davinci
