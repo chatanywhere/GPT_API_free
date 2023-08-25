@@ -76,10 +76,12 @@
 ## 常见软件/插件使用方法
 
 ### 最方便的使用方法
-为了方便大家使用，我们搭建基于开源项目搭建了两个镜像：
+为了方便大家使用，我们搭建基于开源项目搭建了镜像：
 
 1. 基于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)，国内部署，速度快，稳定。 https://chatapi.chatanywhere.cn/ 
 2. 基于[川虎Chat](https://github.com/GaiZhenbiao/ChuanhuChatGPT)，支持联网功能，支持上传PDF分析，国外部署，可能部分人的网络环境访问卡顿。https://chat1.chatanywhere.cn/ 
+3. 基于[PromptAppGPT](https://github.com/mleoking/PromptAppGPT)，支持自然语言低代码开发GPT应用，支持自动界面生成。可以在项目的config.yml中配置你的key和转发host。
+
 
 ***由于对IP的访问速率限制，免费Key请勿在这两个上使用，会报错too many requests***
 
