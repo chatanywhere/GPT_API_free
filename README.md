@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[镜像站](https://chatapi.chatanywhere.cn/) / [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 829433227](https://qm.qq.com/cgi-bin/qm/qr?k=pi0iBUwIgrBOH4ndImSQEHpCcWkYfAWj&jump_from=webapi&authKey=H9UwoaXEbgrSK+4ArDlij1Y0/XEEumM+h7+cJPh1OYAkBhch19cHSycBql+fIh+w3)
 
@@ -26,6 +26,8 @@
 - **2023年6月18日** 新增对语音转文字模型Whisper支持。
 
 - **2023年8月4日** 免费Key不再支持gpt-3.5-turbo-16k模型调用。
+
+- **2023年9月7日** chatapi.chatanywhere.cn镜像站不再向国内用户提供服务，不影响API的正常使用。
 
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***(免费版不支持), ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
@@ -49,7 +51,6 @@
 - **转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)**
 - **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
 
-***免费key请勿用于镜像站 https://chatapi.chatanywhere.cn/ 会报错***
 
 我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
@@ -74,14 +75,6 @@
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.com.cn才可以使用，大部分插件和软件都可以修改。
 
 ## 常见软件/插件使用方法
-
-### 最方便的使用方法
-为了方便大家使用，我们搭建基于开源项目搭建了两个镜像：
-
-1. 基于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)，国内部署，速度快，稳定。 https://chatapi.chatanywhere.cn/ 
-2. 基于[川虎Chat](https://github.com/GaiZhenbiao/ChuanhuChatGPT)，支持联网功能，支持上传PDF分析，国外部署，可能部分人的网络环境访问卡顿。https://chat1.chatanywhere.cn/ 
-
-***由于对IP的访问速率限制，免费Key请勿在这两个上使用，会报错too many requests***
 
 ### **python openai官方库（使用AutoGPT，langchain等）**
 示例代码请参考[demo.py](./demo.py)
