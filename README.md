@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [领取免费Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [领取免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 829433227](https://qm.qq.com/cgi-bin/qm/qr?k=pi0iBUwIgrBOH4ndImSQEHpCcWkYfAWj&jump_from=webapi&authKey=H9UwoaXEbgrSK+4ArDlij1Y0/XEEumM+h7+cJPh1OYAkBhch19cHSycBql+fIh+w3)
 
@@ -48,13 +48,13 @@
 ## 免费使用
 
 - **🚀[点击领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render)**
-- **转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)**
-- **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
+- **转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
+- **转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
 
 
 我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
-该API Key用于转发API，需要将Host改为`api.chatanywhere.cn`或者`api.chatanywhere.com.cn`(国内首选)
+该API Key用于转发API，需要将Host改为`api.chatanywhere.com.cn`(国内首选)或者`api.chatanywhere.cn`(国外使用，国内需要全局代理)。
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
@@ -68,10 +68,10 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)***（免费key请勿用于 https://chatapi.chatanywhere.cn/ 会报错）***
-- 转发Host1: `https://api.chatanywhere.cn` (国外服务器使用)
-- 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
-- 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.cn/)
+- 🚀[领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)
+- 转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
+- 转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
+- 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.org/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.com.cn才可以使用，大部分插件和软件都可以修改。
 
 ## 常见软件/插件使用方法
@@ -107,7 +107,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 下载链接：https://github.com/Bin-Huang/chatbox/releases
 
-使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://api.chatanywhere.cn` 或者 `https://api.chatanywhere.com.cn` 即可
+使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://api.chatanywhere.com.cn`即可
 
 ![](images/chatbox.png)
 
@@ -116,14 +116,14 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 官网链接：https://chatgpt-sidebar.com/
 
-安装好插件后进入设置页面，如图所示修改设置，将url修改为 `https://api.chatanywhere.cn` 或者 `https://api.chatanywhere.com.cn` 。
+安装好插件后进入设置页面，如图所示修改设置，将url修改为 `https://api.chatanywhere.com.cn` 。
 
 ![](images/sidebar.png)
 
 ### **Jetbrains插件ChatGPT - Easycode**
 <img src="./images/jet1.png" width='200'/>
 
-安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 `https://api.chatanywhere.cn/v1/chat/completions` 或者 `https://api.chatanywhere.com.cn/v1/chat/completions` 。并勾选Customize Server。
+安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 `https://api.chatanywhere.com.cn/v1/chat/completions` 。并勾选Customize Server。
 
 ![](images/jet2.png)
 
@@ -139,7 +139,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 2. 点击Extensions: Open Extensions Floder，这将打开插件目录，找到Code GPT的文件夹。
 ![](images/codegpt3.png)
 
-3. 打开后进入打开文件./src/clients/openai_client.js，搜索文件中的api.openai.com，并替换为 `api.chatanywhere.cn` 或者 `api.chatanywhere.com.cn`。保存文件。
+3. 打开后进入打开文件./src/clients/openai_client.js，搜索文件中的api.openai.com，并替换为 `api.chatanywhere.com.cn`。保存文件。
 ![](images/codegpt4.png)
 
 4. 再次回到vscode，按Ctrl+Shift+P，弹出框中输入CodeGPT: Set API KEY，点击CodeGPT: Set API KEY。然后将购买的Key输入进去即可。
