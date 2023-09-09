@@ -47,7 +47,7 @@
 
 ## 免费使用
 
-- **🚀[点击领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render)**
+- **🚀[点击领取免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
 - **转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
 - **转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
 
@@ -68,7 +68,7 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[领取免费API Key](https://api.chatanywhere.cn/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)
+- 🚀[领取免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)
 - 转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
 - 转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.org/)
