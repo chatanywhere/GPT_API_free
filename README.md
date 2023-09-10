@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [领取免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
 [QQ群: 829433227](https://qm.qq.com/cgi-bin/qm/qr?k=pi0iBUwIgrBOH4ndImSQEHpCcWkYfAWj&jump_from=webapi&authKey=H9UwoaXEbgrSK+4ArDlij1Y0/XEEumM+h7+cJPh1OYAkBhch19cHSycBql+fIh+w3)
 
@@ -43,11 +43,13 @@
 
 ❗️我们将不定期对被滥用的Key进行封禁，如发现自己的key被误封请通过QQ群联系我们。
 
+❗️我们的系统仅供内部评估测试使用，商用或面向大众使用请自行承担风险。
+
 为了该项目长久发展，免费API Key限制**60请求/小时/IP&Key**调用频率，也就是说你如果在一个IP下使用多个Key，所有Key的每小时请求数总和不能超过60；同理，你如果将一个Key用于多个IP，这个Key的每小时请求数也不能超过60。(**付费版API没有这个限制**)
 
 ## 免费使用
 
-- **🚀[点击领取免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
+- **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
 - **转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
 - **转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
 
@@ -68,7 +70,7 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[领取免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买付费API Key](https://peiqi.shop/)
+- 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://peiqi.shop/)
 - 转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
 - 转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.org/)
