@@ -8,7 +8,7 @@
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
-[QQ群: 838079661](https://qm.qq.com/cgi-bin/qm/qr?k=xC1wBK0beypFEyrWcNETqvFTWZY6u7WX&jump_from=webapi&authKey=lynI66LnigC5N93RfvZAthbzWjxXVcfCeJmGoxUqKS4eqwocJrE5lwVHqj/5SpZt)
+[QQ群: 780366686](https://qm.qq.com/cgi-bin/qm/qr?k=OFhxu4Z3qI-c-76QJfC2LLXfKGr0g-57&jump_from=webapi&authKey=Kzuf7g4fsE0ZAM7RN+7XvivEANxgDVqDbUs3WI6cB98pt4pFzq/3L8NMiMOy+mo1)
 
 </div>
 
@@ -28,6 +28,8 @@
 - **2023年8月4日** 免费Key不再支持gpt-3.5-turbo-16k模型调用。
 
 - **2023年9月7日** chatapi.chatanywhere.cn镜像站不再向国内用户提供服务，不影响API的正常使用。
+
+- **2023年11月8日** 支持1106版本各模型，支持TTS文本转语音模型。
 
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***(免费版不支持), ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
