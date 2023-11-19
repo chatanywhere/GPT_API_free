@@ -31,6 +31,8 @@
 
 - **2023年11月8日** 支持1106版本各模型，支持TTS文本转语音模型。
 
+- **2023年11月19日** 支持gpt-4-1106-preview模型，价格仅原先gpt-4模型的三分之一到二分之一。
+
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***(免费版不支持), ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
 2. 与官方完全一致的接口标准，兼容各种软件/插件。
