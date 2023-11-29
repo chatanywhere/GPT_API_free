@@ -37,7 +37,7 @@
 
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
-2. 免费版支持GPT-4，一天10次。
+2. 免费版支持GPT-4，一天10次。（免费版gpt-4相对慢一些，付费版更稳定）
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
