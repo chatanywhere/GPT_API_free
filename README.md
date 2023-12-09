@@ -22,7 +22,7 @@
 
 🎈 新模型：gpt-4-vision-preview模型已推出（但请注意，官方限制尚未解除，可能碰到官方限制）
 
-🔚 结束：本次活动为限量活动，优惠额度用完即止，有需要的抓紧机会哦～
+🔚 结束：12月14日0点结束。
 
 🌟 ChatAnywhere —— 与GPT携手并进，开启智能对话的新篇章！ 🌟
 
@@ -73,13 +73,14 @@
 ## 免费使用
 
 - **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
-- **转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)**
-- **转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
+- **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)**
+- **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)**
+- **转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
 
 
 我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
-该API Key用于转发API，需要将Host改为`api.chatanywhere.com.cn`(国内首选)或者`api.chatanywhere.cn`(国外使用，国内需要全局代理)。
+该API Key用于转发API，需要将Host改为`api.chatanywhere.tech`(国内首选)或者`api.chatanywhere.cn`(国外使用，国内需要全局代理)。
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
@@ -94,10 +95,11 @@
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
 - 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://peiqi.shop/)
-- 转发Host1: `https://api.chatanywhere.com.cn` (国内中转，延时更低，推荐)
-- 转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
-- 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.org/)
-- 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.com.cn才可以使用，大部分插件和软件都可以修改。
+- 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)
+- 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)
+- 转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
+- 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
+- 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.tech才可以使用，大部分插件和软件都可以修改。
 
 ## 常见软件/插件使用方法
 
@@ -108,7 +110,7 @@
 
 ```python
 import openai
-openai.api_base = "https://api.chatanywhere.com.cn/v1"
+openai.api_base = "https://api.chatanywhere.tech/v1"
 # openai.api_base = "https://api.chatanywhere.cn/v1"
 ```
 
@@ -116,23 +118,32 @@ openai.api_base = "https://api.chatanywhere.com.cn/v1"
 
 修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
 ```bash
-OPENAI_API_BASE=https://api.chatanywhere.com.cn/v1
+OPENAI_API_BASE=https://api.chatanywhere.tech/v1
 或 OPENAI_API_BASE=https://api.chatanywhere.cn/v1
 ```
 ### **开源gpt_academic**
 找到`config.py`文件中的`API_URL_REDIRECT`配置并修改为以下内容：
 ```python
-API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.com.cn/v1/chat/completions"}
+API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.tech/v1/chat/completions"}
 # API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.cn/v1/chat/completions"}
 ```
+### **BotGem(AMA)**
 
-### **ChatBox(推荐使用)**
+ChatGPT桌面应用，支持全平台，***支持gpt-4-vision***。
+
+下载链接：https://bytemyth.com/ama
+
+使用方法：下载安装后在设置中如图设置，并点击更新。
+
+![](images/botgem.png)
+
+### **ChatBox**
 
 ChatGPT开源桌面应用，支持全部桌面平台。
 
 下载链接：https://github.com/Bin-Huang/chatbox/releases
 
-使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://api.chatanywhere.com.cn`即可
+使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://api.chatanywhere.tech`即可
 
 ![](images/chatbox.png)
 
@@ -141,45 +152,24 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 官网链接：https://chatgpt-sidebar.com/
 
-安装好插件后进入设置页面，如图所示修改设置，将url修改为 `https://api.chatanywhere.com.cn` 。
+安装好插件后进入设置页面，如图所示修改设置，将url修改为 `https://api.chatanywhere.tech` 。
 
 ![](images/sidebar.png)
 
 ### **Jetbrains插件ChatGPT - Easycode**
 <img src="./images/jet1.png" width='200'/>
 
-安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 `https://api.chatanywhere.com.cn/v1/chat/completions` 。并勾选Customize Server。
+安装好插件后在Settings > Tools > OpenAI > GPT 3.5 Turbo中如图所示配置好插件，重点要将Server Settings 修改为 `https://api.chatanywhere.tech/v1/chat/completions` 。并勾选Customize Server。
 
 ![](images/jet2.png)
 
-
-### **VSCode插件Code GPT**
-<img src="./images/codegpt1.png" width='300'/>
-
-这个插件修改Host相对麻烦一些，需要修改源码才可以使用。
-
-1. 安装插件。安装好后按Ctrl+Shift+P，弹出框中输入Open Extensions Floder
-![](images/codegpt2.png)
-
-2. 点击Extensions: Open Extensions Floder，这将打开插件目录，找到Code GPT的文件夹。
-![](images/codegpt3.png)
-
-3. 打开后进入打开文件./src/clients/openai_client.js，搜索文件中的api.openai.com，并替换为 `api.chatanywhere.com.cn`。保存文件。
-![](images/codegpt4.png)
-
-4. 再次回到vscode，按Ctrl+Shift+P，弹出框中输入CodeGPT: Set API KEY，点击CodeGPT: Set API KEY。然后将购买的Key输入进去即可。
-![](images/codegpt5.png)
-
-5. 以上步骤完成后，重启VSCode
-
-- 其他VSCode插件类似。
 
 ### **Raycast 插件 ChatGPT（推荐使用）**
 
 1. 在 Raycast Store 中找到 ChatGPT 插件，并按照提示安装：
 ![](images/raycast1.png)
 
-2. 安装完成后在该插件配置中的 `API Key` 中填入我们的API Key，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.com.cn/v1`
+2. 安装完成后在该插件配置中的 `API Key` 中填入我们的API Key，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.tech/v1`
 ![](images/raycast2.png)
 ![](images/raycast3.png)
 
