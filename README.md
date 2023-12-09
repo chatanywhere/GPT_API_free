@@ -147,6 +147,32 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 ![](images/chatbox.png)
 
+### **Zotero插件**
+
+**pdf阅读插件zotero-gpt**
+
+下载链接：https://github.com/MuiseDestiny/zotero-gpt/releases
+
+安装好插件后使用以下命令设置，还是不会可以去b站搜教程。
+```
+/api https://api.chatanywhere.tech
+
+/secretKey 购买的转发key 记住别忘记带sk-
+```
+
+![](images/zotero-gpt.png)
+
+
+**翻译插件zotero-pdf-translate**
+
+下载链接：https://github.com/windingwind/zotero-pdf-translate/releases
+
+接口地址填写: https://api.chatanywhere.tech/v1/chat/completions
+
+不用管状态是否显示可用 填上之后就可以了
+
+![](images/zotero-pdf-translate.png)
+
 
 ### **浏览器插件ChatGPT Sidebar**
 
@@ -164,7 +190,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 ![](images/jet2.png)
 
 
-### **Raycast 插件 ChatGPT（推荐使用）**
+### **Raycast 插件 ChatGPT**
 
 1. 在 Raycast Store 中找到 ChatGPT 插件，并按照提示安装：
 ![](images/raycast1.png)
