@@ -79,7 +79,7 @@
 5. 所有的接口都保证转发自OpenAI官方接口，非peo、plus等不稳定方案，无水分，不掺假，保证稳定性。
 
 ## 如何使用
-- 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
+- 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的GitHub账号绑定来领取你自己的免费Key。
 - 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://peiqi.shop/)
 - 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)
 - 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)
