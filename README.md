@@ -59,6 +59,7 @@
 ## 免费使用
 
 - **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
+- 免费版支持gpt-3.5-turbo, embedding, gpt-4。其中gpt-4由于价格过高，每24小时限制10次调用，且不支持流式传输。需要更稳定快速的gpt-4请使用付费版。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)**
 - **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)**
 - **转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
@@ -72,7 +73,7 @@
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
 - [购买低价付费Key](https://peiqi.shop/)
 
-1. **支持GPT4 API**，价格仅官方价格85折。
+1. 支持**更稳定更快速的GPT4 API**，GPT4体验更好，无限使用，价格仅官方价格85折。
 2. 性价比高，除了GPT4的其他模型价格相当于官网价格七分之一。
 3. 同官网计费策略，流式问答使用tiktoken库准确计算Tokens，非流式问答直接使用官方返回Tokens用量计费。
 4. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用GPT3.5估计能用一年。
