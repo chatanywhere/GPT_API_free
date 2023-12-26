@@ -8,7 +8,7 @@
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
 
-[QQ群: 780366686](https://qm.qq.com/cgi-bin/qm/qr?k=OFhxu4Z3qI-c-76QJfC2LLXfKGr0g-57&jump_from=webapi&authKey=Kzuf7g4fsE0ZAM7RN+7XvivEANxgDVqDbUs3WI6cB98pt4pFzq/3L8NMiMOy+mo1)
+[QQ群: 868139438](https://qm.qq.com/cgi-bin/qm/qr?k=e3oCARjdbqNbGRsRPDTiV9DMi1mDt6VK&jump_from=webapi&authKey=19jNYYM5+9773xWFufBVTNmnX/cdPx74yQFmo7ciohzUU94V1i/qrnN2CatsbERV)
 
 </div>
 
