@@ -96,9 +96,14 @@
 ***方法一***
 
 ```python
-import openai
-openai.api_base = "https://api.chatanywhere.tech/v1"
-# openai.api_base = "https://api.chatanywhere.cn/v1"
+from openai import OpenAI
+
+client = OpenAI(
+    # defaults to os.environ.get("OPENAI_API_KEY")
+    api_key="YOUR API KEY",
+    base_url="https://api.chatanywhere.tech/v1"
+    # base_url="https://api.chatanywhere.cn/v1"
+)
 ```
 
 ***方法二（方法一不起作用用这个）***
