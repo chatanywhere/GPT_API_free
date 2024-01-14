@@ -33,11 +33,11 @@
 
 - **2023年11月19日** 支持gpt-4-1106-preview模型，价格仅原先gpt-4模型的三分之一到二分之一。
 
-- **2023年11月29日** 开放免费API的gpt-4权限，每天可以免费使用10次。（不保证能长期提供）
+- **2023年11月29日** 开放免费API的gpt-4权限，每天可以免费使用3次（0点刷新次数）。（不保证能长期提供）
 
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
-2. 免费版支持GPT-4，一天10次。（免费版gpt-4相对慢一些，付费版更稳定）
+2. 免费版支持GPT-4，一天3次。（免费版gpt-4相对慢一些，付费版更稳定）
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
@@ -59,7 +59,7 @@
 ## 免费使用
 
 - **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
-- 免费版支持gpt-3.5-turbo, embedding, gpt-4。其中gpt-4由于价格过高，每24小时限制10次调用，且不支持流式传输。需要更稳定快速的gpt-4请使用付费版。
+- 免费版支持gpt-3.5-turbo, embedding, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新），且不支持流式传输。需要更稳定快速的gpt-4请使用付费版。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)**
 - **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)**
 - **转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
