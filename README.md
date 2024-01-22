@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqi.shop/) / [服务可用性](https://status.chatanywhere.tech/)
 
 [QQ群: 868139438](https://qm.qq.com/cgi-bin/qm/qr?k=e3oCARjdbqNbGRsRPDTiV9DMi1mDt6VK&jump_from=webapi&authKey=19jNYYM5+9773xWFufBVTNmnX/cdPx74yQFmo7ciohzUU94V1i/qrnN2CatsbERV)
 
@@ -87,6 +87,7 @@
 - 转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.tech才可以使用，大部分插件和软件都可以修改。
+- 遇到问题可以前往[ChatAnywhere Status](https://status.chatanywhere.tech/)查看接口可用性。
 
 ## 常见软件/插件使用方法
 
@@ -193,22 +194,6 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 3. 🍺 enjoy it~
 ![](images/raycast4.gif)
-
-## API报错说明
-- Overload错误
-
-具体错误信息：
-```
-{
-  "error": {
-    "message": "That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID xxxxxxxxxxxx in your message.)",
-    "type": "server_error",
-    "param": null,
-    "code": null
-  }
-}
-```
-该错误由于OpenAI官方服务器负载高引起，与转发服务器负载无关。一般一段时间后恢复，可以等几秒后再试。
 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://star-history.com/#chatanywhere/GPT_API_free&Date)
