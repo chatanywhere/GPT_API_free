@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理
 
-[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqishop.me/) / [服务可用性](https://status.chatanywhere.tech/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://peiqishop.cn/) / [服务可用性](https://status.chatanywhere.tech/)
 
 [QQ群: 868139438](https://qm.qq.com/cgi-bin/qm/qr?k=e3oCARjdbqNbGRsRPDTiV9DMi1mDt6VK&jump_from=webapi&authKey=19jNYYM5+9773xWFufBVTNmnX/cdPx74yQFmo7ciohzUU94V1i/qrnN2CatsbERV)
 
@@ -71,7 +71,7 @@
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
-- [购买低价付费Key](https://peiqishop.me/)
+- [购买低价付费Key](https://peiqishop.cn/)
 
 1. 支持**更稳定更快速的GPT4 API**，GPT4体验更好，无限使用，价格仅官方价格85折。
 2. 性价比高，除了GPT4的其他模型价格相当于官网价格七分之一。
@@ -81,7 +81,7 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://peiqi.shop/)
+- 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://peiqishop.cn/)
 - 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)
 - 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)
 - 转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
