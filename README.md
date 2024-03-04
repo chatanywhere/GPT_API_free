@@ -8,7 +8,7 @@
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://buyca.top/) / [服务可用性](https://status.chatanywhere.tech/)
 
-[QQ群: 868139438](https://qm.qq.com/cgi-bin/qm/qr?k=e3oCARjdbqNbGRsRPDTiV9DMi1mDt6VK&jump_from=webapi&authKey=19jNYYM5+9773xWFufBVTNmnX/cdPx74yQFmo7ciohzUU94V1i/qrnN2CatsbERV)
+[QQ群: 831773096](https://qm.qq.com/cgi-bin/qm/qr?k=pBDuenbQGJiCyk3C3zeRe3iQlL1H4_NM&jump_from=webapi&authKey=7Bj+lvxd8MMZ6Ee19S6lTGuCfmQKcHoeRWxX+5PB/gybksVUsGD3zvo7TUUm44D9)
 
 </div>
 
