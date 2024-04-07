@@ -93,7 +93,7 @@
 ## 常见软件/插件使用方法
 
 ### **python openai官方库（使用AutoGPT，langchain等）**
-示例代码请参考[demo.py](./demo.py)
+示例代码请参考[demo.py](./demo.py)或[OpenAI官方文档](https://platform.openai.com/docs/guides/text-generation)
 
 ***方法一***
 
@@ -152,6 +152,9 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 /api https://api.chatanywhere.tech
 
 /secretKey 购买的转发key 记住别忘记带sk-
+
+# 切换模型命令
+/model gpt-3.5-turbo-0125 
 ```
 
 ![](images/zotero-gpt.png)
