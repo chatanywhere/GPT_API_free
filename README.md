@@ -51,7 +51,7 @@
 
 ## 🚩注意事项
 
-❗️*近期OpenAI频繁出错，如果遇到无回复，报错等情况，可以查看 status.openai.com ，很大可能是OpenAI官方服务问题。*
+❗️*如果遇到无回复，报错等情况，可以查看 [status.chatanywhere.tech](https://status.chatanywhere.tech)，确认服务状态是否正常，以帮助排查问题。*
 
 ❗️**免费API Key仅可用于个人非商业用途，教育，非营利性科研工作中。免费API Key严禁商用，严禁大规模训练商用模型！训练科研用模型请提前加群联系我们。**
 
