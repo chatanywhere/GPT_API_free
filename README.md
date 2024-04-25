@@ -8,7 +8,7 @@
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://buyca.top/) / [服务可用性](https://status.chatanywhere.tech/)
 
-[QQ群: 831773096](https://qm.qq.com/cgi-bin/qm/qr?k=pBDuenbQGJiCyk3C3zeRe3iQlL1H4_NM&jump_from=webapi&authKey=7Bj+lvxd8MMZ6Ee19S6lTGuCfmQKcHoeRWxX+5PB/gybksVUsGD3zvo7TUUm44D9)
+[QQ群: 625105715](https://qm.qq.com/cgi-bin/qm/qr?k=dxH_Cl3EPOh9vq83Z9juIZuC3POmRLdg&jump_from=webapi&authKey=fy5d8xLa2FiEfYcUrduYFRwCEU7Mt/hHMNcFtHfzn0AeFpeG7qSjpxIrJHK5ep2v)
 
 </div>
 
@@ -50,6 +50,8 @@
 7. 个人完全免费使用。
 
 ## 🚩注意事项
+
+
 
 ❗️*如果遇到无回复，报错等情况，可以查看 [status.chatanywhere.tech](https://status.chatanywhere.tech)，确认服务状态是否正常，以帮助排查问题。*
 
