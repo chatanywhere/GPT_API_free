@@ -40,7 +40,7 @@
 
 - **2024年4月10日** 支持gpt-4-turbo（gpt-4-turbo-2024-04-09）模型。
 
-- **2024年4月25日** 上线官网逆向gpt-3.5-turbo, 付费API可以将model设置为gpt-3.5-turbo-ca调用，价格更低，支持高并发，但不支持functions。
+- **2024年4月25日** 上线逆向gpt-3.5-turbo, 付费API可以将model设置为gpt-3.5-turbo-ca调用，价格更低，支持高并发，但不支持functions。（该逆向方案由第三方提供，稳定性可能不如官方原生模型）
 
 ## 特点
 1. 支持Models, Embedding, text-davinci, GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
