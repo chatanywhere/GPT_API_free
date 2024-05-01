@@ -10,12 +10,12 @@
 
 [QQ群: 625105715](https://qm.qq.com/cgi-bin/qm/qr?k=dxH_Cl3EPOh9vq83Z9juIZuC3POmRLdg&jump_from=webapi&authKey=fy5d8xLa2FiEfYcUrduYFRwCEU7Mt/hHMNcFtHfzn0AeFpeG7qSjpxIrJHK5ep2v)
 
-[![](https://status.chatanywhere.tech/api/badge/6/uptime/24?labelPrefix=%E4%BB%98%E8%B4%B9API%3Agpt-4%3A)](https://status.chatanywhere.tech/)
-[![](https://status.chatanywhere.tech/api/badge/3/uptime/24?labelPrefix=%E4%BB%98%E8%B4%B9API%3Agpt-3.5-turbo%3A)](https://status.chatanywhere.tech/)
-[![](https://status.chatanywhere.tech/api/badge/8/uptime/24?labelPrefix=%E4%BB%98%E8%B4%B9API%3Agpt-3.5-turbo-ca%28%E9%80%86%E5%90%91%29%3A)](https://status.chatanywhere.tech/)
+[![](https://status.chatanywhere.org/api/badge/6/uptime/24?labelPrefix=%E4%BB%98%E8%B4%B9API%3Agpt-4%3A)](https://status.chatanywhere.tech/)
+[![](https://status.chatanywhere.org/api/badge/3/uptime/24?labelPrefix=%E4%BB%98%E8%B4%B9API%3Agpt-3.5-turbo%3A)](https://status.chatanywhere.tech/)
+[![](https://status.chatanywhere.org/api/badge/8/uptime/24?labelPrefix=%E4%BB%98%E8%B4%B9API%3Agpt-3.5-turbo-ca%28%E9%80%86%E5%90%91%29%3A)](https://status.chatanywhere.tech/)
 
-[![](https://status.chatanywhere.tech/api/badge/6/uptime/24?labelPrefix=%E5%85%8D%E8%B4%B9API%3Agpt-4%3A)](https://status.chatanywhere.tech/)
-[![](https://status.chatanywhere.tech/api/badge/8/uptime/24?labelPrefix=%E5%85%8D%E8%B4%B9API%3Agpt-3.5-turbo%28%E9%80%86%E5%90%91%29%3A)](https://status.chatanywhere.tech/)
+[![](https://status.chatanywhere.org/api/badge/6/uptime/24?labelPrefix=%E5%85%8D%E8%B4%B9API%3Agpt-4%3A)](https://status.chatanywhere.tech/)
+[![](https://status.chatanywhere.org/api/badge/8/uptime/24?labelPrefix=%E5%85%8D%E8%B4%B9API%3Agpt-3.5-turbo%28%E9%80%86%E5%90%91%29%3A)](https://status.chatanywhere.tech/)
 
 
 </div>
