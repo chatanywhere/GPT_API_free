@@ -28,7 +28,7 @@
 
 ## 更新日志
 
-> 付费版新增三个模型：gpt-3.5-turbo-ca, gpt-4-turbo-ca, gpt-4-turbo-preview-ca, CA系列模型由Azure OpenAI API提供服务，稳定性、表现以及性能与OpenAI API一致，支持识图、functions等，但价格仅有官方的二八折到五六折。
+> 付费版新增五个模型：gpt-3.5-turbo-ca, gpt-4-ca, gpt-4o-ca, gpt-4-turbo-ca, gpt-4-turbo-preview-ca, CA系列模型由Azure OpenAI API提供服务，稳定性、表现以及性能与OpenAI API一致，支持识图、functions等，但价格仅有官方的二八折到五六折。
 
 - **2023年6月14日** 适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
 
@@ -47,8 +47,6 @@
 - **2023年11月29日** 开放免费API的gpt-4权限，每天可以免费使用3次（0点刷新次数）。（不保证能长期提供）
 
 - **2024年4月10日** 支持gpt-4-turbo（gpt-4-turbo-2024-04-09）模型。
-
-- **2024年4月25日** 上线逆向gpt-3.5-turbo, 付费API可以将model设置为gpt-3.5-turbo-ca调用，价格更低，支持高并发，但不支持functions。（该逆向方案由第三方提供，稳定性可能不如官方原生模型）
 
 - **2024年5月14日** 支持gpt-4o（gpt-4o-2024-05-13）模型（价格最低的gpt-4）。
 
