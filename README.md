@@ -217,5 +217,12 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 ![](images/raycast4.gif)
 
+### **Tampermonkey 插件 Codeforces Better!**
+
+1. 在 codeforces 网页右上角点击 `Codeforces Better! 设置`，找到 翻译 > ChatGPT > 配置管理 > + 添加，如图填写 key 和 Proxy API 项：
+   ![](images/cf better1.png)
+
+2. 完成后设置为 ChatGPT 翻译即可。
+   ![](images/cf better2.png)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://star-history.com/#chatanywhere/GPT_API_free&Date)
