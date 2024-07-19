@@ -48,11 +48,13 @@
 
 - **2024年4月10日** 支持gpt-4-turbo（gpt-4-turbo-2024-04-09）模型。
 
-- **2024年5月14日** 支持gpt-4o（gpt-4o-2024-05-13）模型（价格最低的gpt-4）。
+- **2024年5月14日** 支持gpt-4o（gpt-4o-2024-05-13）模型。
+
+- **2024年7月19日** 支持gpt-4o-mini（gpt-4o-mini-2024-07-18）模型（价格最低的gpt-4）。
 
 ## 特点
 1. 支持Models, Embedding, text-davinci(免费版不支持), GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
-2. 免费版支持GPT-4，一天3次。
+2. 免费版支持gpt-4，一天3次；支持gpt-4o-mini，和gpt-3.5-turbo共享一天200次。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
@@ -76,8 +78,8 @@
 ## 免费使用
 
 - **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
-- 免费版支持gpt-3.5-turbo, embedding, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。
-- 免费版gpt-4由gpt-4o提供服务，支持识图等付费版API全部功能。
+- 免费版支持gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。
+- 免费版gpt-4由gpt-4o提供服务，但免费版暂不支持识图。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)**
 - **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)**
 - **转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
@@ -94,7 +96,7 @@
 
 1. 支持**更稳定更快速的GPT4 API**，GPT4体验更好，无限使用，价格低于官方，充值更便捷。
 2. 同官网计费策略，流式问答使用tiktoken库准确计算Tokens，非流式问答直接使用官方返回Tokens用量计费。
-3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用GPT3.5估计能用半年。
+3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用gpt-4o-mini估计能用半年。
 4. 所有的接口（包括免费版本）都保证转发自OpenAI或Azure官方接口，非peo、plus等不稳定方案或逆向方案，无水分，不掺假，保证稳定性。
 
 ## 如何使用
