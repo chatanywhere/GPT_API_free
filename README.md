@@ -28,8 +28,6 @@
 
 ## 更新日志
 
-> 付费版新增五个模型：gpt-3.5-turbo-ca, gpt-4-ca, gpt-4o-ca, gpt-4-turbo-ca, gpt-4-turbo-preview-ca, CA系列模型由Azure OpenAI API提供服务，稳定性、表现以及性能与OpenAI API一致，支持识图、functions等，但价格仅有官方的二八折到五六折。
-
 - **2023年6月14日** 适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
 
 - **2023年6月15日** 适配0613版本新增的functions。
@@ -51,6 +49,8 @@
 - **2024年5月14日** 支持gpt-4o（gpt-4o-2024-05-13）模型。
 
 - **2024年7月19日** 支持gpt-4o-mini（gpt-4o-mini-2024-07-18）模型（价格最低的gpt-4）。
+
+- **2024年8月7日** 支持gpt-4o-2024-08-06模型，价格同步官方降低，`json_schema`参数适配。
 
 ## 特点
 1. 支持Models, Embedding, text-davinci(免费版不支持), GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
