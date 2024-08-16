@@ -204,18 +204,5 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 ![](images/jet2.png)
 
 
-### **Raycast 插件 ChatGPT**
-
-1. 在 Raycast Store 中找到 ChatGPT 插件，并按照提示安装：
-![](images/raycast1.png)
-
-2. 安装完成后在该插件配置中的 `API Key` 中填入我们的API Key，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.tech/v1`
-![](images/raycast2.png)
-![](images/raycast3.png)
-
-3. 🍺 enjoy it~
-
-![](images/raycast4.gif)
-
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://star-history.com/#chatanywhere/GPT_API_free&Date)
