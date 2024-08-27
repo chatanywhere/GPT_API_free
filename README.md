@@ -36,8 +36,6 @@
 
 - **2023年8月4日** 免费Key不再支持gpt-3.5-turbo-16k模型调用。
 
-- **2023年9月7日** chatapi.chatanywhere.cn镜像站不再向国内用户提供服务，不影响API的正常使用。
-
 - **2023年11月8日** 支持1106版本各模型，支持TTS文本转语音模型。
 
 - **2023年11月19日** 支持gpt-4-1106-preview模型，价格仅原先gpt-4模型的三分之一到二分之一。
@@ -81,12 +79,12 @@
 - 免费版支持gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。
 - 免费版gpt-4由gpt-4o提供服务，但免费版暂不支持识图。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)**
-- **转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
+- **转发Host2: `https://api.chatanywhere.org` (国外使用)**
 
 
 我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
-该API Key用于转发API，需要将Host改为`api.chatanywhere.tech`(国内首选)或者`api.chatanywhere.cn`(国外使用，国内需要全局代理)。
+该API Key用于转发API，需要将Host改为`api.chatanywhere.tech`(国内首选)或者`api.chatanywhere.org`(国外使用)。
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
@@ -102,7 +100,7 @@
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
 - 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://buyca.shop/)
 - 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)
-- 转发Host2: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
+- 转发Host2: `https://api.chatanywhere.org` (国外使用)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.tech才可以使用，大部分插件和软件都可以修改。
 - 遇到问题可以前往[ChatAnywhere Status](https://status.chatanywhere.tech/)查看接口可用性。
@@ -121,7 +119,7 @@ client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
     api_key="YOUR API KEY",
     base_url="https://api.chatanywhere.tech/v1"
-    # base_url="https://api.chatanywhere.cn/v1"
+    # base_url="https://api.chatanywhere.org/v1"
 )
 ```
 
@@ -130,13 +128,13 @@ client = OpenAI(
 修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
 ```bash
 OPENAI_API_BASE=https://api.chatanywhere.tech/v1
-或 OPENAI_API_BASE=https://api.chatanywhere.cn/v1
+或 OPENAI_API_BASE=https://api.chatanywhere.org/v1
 ```
 ### **开源gpt_academic**
 找到`config.py`文件中的`API_URL_REDIRECT`配置并修改为以下内容：
 ```python
 API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.tech/v1/chat/completions"}
-# API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.cn/v1/chat/completions"}
+# API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.org/v1/chat/completions"}
 ```
 ### **BotGem(AMA)**
 
