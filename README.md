@@ -8,7 +8,7 @@
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/github/render) / [支持付费Key](https://buyca.shop/) / [服务可用性](https://status.chatanywhere.tech/)
 
-[QQ群: 625105715](https://qm.qq.com/cgi-bin/qm/qr?k=dxH_Cl3EPOh9vq83Z9juIZuC3POmRLdg&jump_from=webapi&authKey=fy5d8xLa2FiEfYcUrduYFRwCEU7Mt/hHMNcFtHfzn0AeFpeG7qSjpxIrJHK5ep2v)
+[QQ群: 836739524](https://qm.qq.com/cgi-bin/qm/qr?k=9I6P5HqJr0XJK24-b3CTF3KDlDlJxeMS&jump_from=webapi&authKey=8LEPAetLCLISxyeOTlH2X0SO55Yzr1elqsJVa9o3D5ZAkmI5cuHxMdbzScp2ErAL)
 
 [![](https://status.chatanywhere.org/api/badge/6/uptime/24?labelPrefix=付费API:gpt-4:)](https://status.chatanywhere.tech/)
 [![](https://status.chatanywhere.org/api/badge/3/uptime/24?labelPrefix=付费API:gpt-3.5-turbo:)](https://status.chatanywhere.tech/)
@@ -28,8 +28,6 @@
 
 ## 更新日志
 
-> 付费版新增五个模型：gpt-3.5-turbo-ca, gpt-4-ca, gpt-4o-ca, gpt-4-turbo-ca, gpt-4-turbo-preview-ca, CA系列模型由Azure OpenAI API提供服务，稳定性、表现以及性能与OpenAI API一致，支持识图、functions等，但价格仅有官方的二八折到五六折。
-
 - **2023年6月14日** 适配GPT-3.5-Turbo-16K，免费key也支持16k模型；付费key跟随官方价格降低收费。
 
 - **2023年6月15日** 适配0613版本新增的functions。
@@ -37,8 +35,6 @@
 - **2023年6月18日** 新增对语音转文字模型Whisper支持。
 
 - **2023年8月4日** 免费Key不再支持gpt-3.5-turbo-16k模型调用。
-
-- **2023年9月7日** chatapi.chatanywhere.cn镜像站不再向国内用户提供服务，不影响API的正常使用。
 
 - **2023年11月8日** 支持1106版本各模型，支持TTS文本转语音模型。
 
@@ -48,11 +44,15 @@
 
 - **2024年4月10日** 支持gpt-4-turbo（gpt-4-turbo-2024-04-09）模型。
 
-- **2024年5月14日** 支持gpt-4o（gpt-4o-2024-05-13）模型（价格最低的gpt-4）。
+- **2024年5月14日** 支持gpt-4o（gpt-4o-2024-05-13）模型。
+
+- **2024年7月19日** 支持gpt-4o-mini（gpt-4o-mini-2024-07-18）模型（价格最低的gpt-4）。
+
+- **2024年8月7日** 支持gpt-4o-2024-08-06模型，价格同步官方降低，`json_schema`参数适配。
 
 ## 特点
 1. 支持Models, Embedding, text-davinci(免费版不支持), GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
-2. 免费版支持GPT-4，一天3次。
+2. 免费版支持gpt-4，一天3次；支持gpt-4o-mini，和gpt-3.5-turbo共享一天200次。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
@@ -76,16 +76,15 @@
 ## 免费使用
 
 - **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render)**
-- 免费版支持gpt-3.5-turbo, embedding, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。
-- 免费版gpt-4由gpt-4o提供服务，支持识图等付费版API全部功能。
-- **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)**
-- **转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)**
-- **转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)**
+- 免费版支持gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。
+- 免费版gpt-4由gpt-4o提供服务，但免费版暂不支持识图。
+- **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)**
+- **转发Host2: `https://api.chatanywhere.org` (国外使用)**
 
 
 我们会定期根据使用量进行相应的扩容，只要不被官方制裁我们会一直提供免费API，如果该项目对你有帮助，还请为我们点一个***Star***。如果遇到问题可以在[Issues](https://github.com/chatanywhere/GPT_API_free/issues)中反馈，有空会解答。
 
-该API Key用于转发API，需要将Host改为`api.chatanywhere.tech`(国内首选)或者`api.chatanywhere.cn`(国外使用，国内需要全局代理)。
+该API Key用于转发API，需要将Host改为`api.chatanywhere.tech`(国内首选)或者`api.chatanywhere.org`(国外使用)。
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
@@ -94,15 +93,14 @@
 
 1. 支持**更稳定更快速的GPT4 API**，GPT4体验更好，无限使用，价格低于官方，充值更便捷。
 2. 同官网计费策略，流式问答使用tiktoken库准确计算Tokens，非流式问答直接使用官方返回Tokens用量计费。
-3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用GPT3.5估计能用半年。
+3. 余额不会过期，永久有效。根据用户反馈30块钱个人中度使用gpt-4o-mini估计能用半年。
 4. 所有的接口（包括免费版本）都保证转发自OpenAI或Azure官方接口，非peo、plus等不稳定方案或逆向方案，无水分，不掺假，保证稳定性。
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
 - 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/github/render) 或 [购买内测付费API Key](https://buyca.shop/)
-- 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低，host1和host2二选一)
-- 转发Host2: `https://api.chatanywhere.com.cn` (国内中转，延时更低，host1和host2二选一)
-- 转发Host3: `https://api.chatanywhere.cn` (国外使用,国内需要全局代理)
+- 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)
+- 转发Host2: `https://api.chatanywhere.org` (国外使用)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.tech才可以使用，大部分插件和软件都可以修改。
 - 遇到问题可以前往[ChatAnywhere Status](https://status.chatanywhere.tech/)查看接口可用性。
@@ -121,7 +119,7 @@ client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
     api_key="YOUR API KEY",
     base_url="https://api.chatanywhere.tech/v1"
-    # base_url="https://api.chatanywhere.cn/v1"
+    # base_url="https://api.chatanywhere.org/v1"
 )
 ```
 
@@ -130,13 +128,13 @@ client = OpenAI(
 修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
 ```bash
 OPENAI_API_BASE=https://api.chatanywhere.tech/v1
-或 OPENAI_API_BASE=https://api.chatanywhere.cn/v1
+或 OPENAI_API_BASE=https://api.chatanywhere.org/v1
 ```
 ### **开源gpt_academic**
 找到`config.py`文件中的`API_URL_REDIRECT`配置并修改为以下内容：
 ```python
 API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.tech/v1/chat/completions"}
-# API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.cn/v1/chat/completions"}
+# API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.org/v1/chat/completions"}
 ```
 ### **BotGem(AMA)**
 
@@ -216,6 +214,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 3. 🍺 enjoy it~
 
 ![](images/raycast4.gif)
+
 
 ### **Tampermonkey 插件 Codeforces Better!**
 
