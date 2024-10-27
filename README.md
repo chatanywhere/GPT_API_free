@@ -50,6 +50,8 @@
 
 - **2024年8月7日** 支持gpt-4o-2024-08-06模型，价格同步官方降低，`json_schema`参数适配。
 
+- **2024年10月25日** 支持gpt-4o-audio-preview模型。
+
 ## 特点
 1. 支持Models, Embedding, text-davinci(免费版不支持), GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
 2. 免费版支持gpt-4，一天3次；支持gpt-4o-mini，和gpt-3.5-turbo共享一天200次。
