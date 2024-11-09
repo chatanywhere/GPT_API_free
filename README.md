@@ -149,26 +149,6 @@ GitHub地址：https://github.com/wizardAEI/Gomoon
 
 ![](images/gomoon.png)
 
-### **BotGem(AMA)**
-
-ChatGPT桌面应用，支持全平台，***支持gpt-4-vision***。
-
-下载链接：https://bytemyth.com/ama
-
-使用方法：下载安装后在设置中如图设置，并点击更新。
-
-![](images/botgem.png)
-
-### **ChatBox**
-
-ChatGPT开源桌面应用，支持全部桌面平台。
-
-下载链接：https://github.com/Bin-Huang/chatbox/releases
-
-使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://api.chatanywhere.tech`即可
-
-![](images/chatbox.png)
-
 ### **Zotero插件zotero-gpt**
 
 支持AI阅读论文，科研神器。
@@ -220,6 +200,26 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 ![](images/zotero-pdf-translate.png)
 
+
+### **BotGem(AMA)**
+
+ChatGPT桌面应用，支持全平台，***支持gpt-4-vision***。
+
+下载链接：https://bytemyth.com/ama
+
+使用方法：下载安装后在设置中如图设置，并点击更新。
+
+![](images/botgem.png)
+
+### **ChatBox**
+
+ChatGPT开源桌面应用，支持全部桌面平台。
+
+下载链接：https://github.com/Bin-Huang/chatbox/releases
+
+使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://api.chatanywhere.tech`即可
+
+![](images/chatbox.png)
 
 ### **浏览器插件ChatGPT Sidebar**
 
