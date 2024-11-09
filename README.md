@@ -109,7 +109,7 @@
 
 ## 常见软件/插件使用方法
 
-### **python openai官方库（使用AutoGPT，langchain等）**
+### **python openai官方库（使用langchain等）**
 示例代码请参考[demo.py](./demo.py)或[OpenAI官方文档](https://platform.openai.com/docs/guides/text-generation)
 
 ***方法一***
@@ -138,6 +138,17 @@ OPENAI_API_BASE=https://api.chatanywhere.tech/v1
 API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.tech/v1/chat/completions"}
 # API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatanywhere.org/v1/chat/completions"}
 ```
+### **Gomoon （支持读文件，构建知识库，推荐使用）**
+Gomoon 是一款开源的桌面大模型应用，支持mac和Windows平台。额外支持了解析文件、图片，本地知识库等能力。
+
+官网地址：https://gomoon.top
+
+GitHub地址：https://github.com/wizardAEI/Gomoon
+
+使用方法：进入Gomoon设置页面(页面右上角)，如图在设置中填入密钥，并将代理设置为`https://api.chatanywhere.tech/v1`
+
+![](images/gomoon.png)
+
 ### **BotGem(AMA)**
 
 ChatGPT桌面应用，支持全平台，***支持gpt-4-vision***。
@@ -158,13 +169,35 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 ![](images/chatbox.png)
 
-### **Zotero插件**
+### **Zotero插件zotero-gpt**
 
-**pdf阅读插件zotero-gpt**
+支持AI阅读论文，科研神器。
 
-下载链接：https://github.com/MuiseDestiny/zotero-gpt/releases
+下载链接：https://github.com/MuiseDestiny/zotero-gpt/releases (下载最新版本的zotero-gpt.xpi文件)
 
-安装好插件后使用以下命令设置，还是不会可以去b站搜教程。
+**Zotero7使用方法（建议使用Zotero7）**
+
+1. 安装插件
+
+在下载链接下载好插件后（zotero7应该下载1.0以上版本的插件），点击zotero左上角 工具->插件
+
+点击Install Plugin From File
+
+![](images/zotero7-gpt1.png)
+
+找到你下载的zotero-gpt.xpi安装
+
+2. 配置插件
+
+点击zotero左上角 编辑->设置
+
+然后如图设置即可
+
+![](images/zotero7-gpt2.png)
+
+**Zotero6使用方法**
+
+安装好插件后使用以下命令设置
 ```
 /api https://api.chatanywhere.tech
 
@@ -177,7 +210,7 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 ![](images/zotero-gpt.png)
 
 
-**翻译插件zotero-pdf-translate**
+### **Zotero翻译插件zotero-pdf-translate**
 
 下载链接：https://github.com/windingwind/zotero-pdf-translate/releases
 
