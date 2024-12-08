@@ -2,11 +2,11 @@
 <img src="./images/logo.png" alt="icon" width="50px"/>
 <h1 align="center">GPT-API-free</h1>
 
-支持 **GPT-4** / GPT-3.5-Turbo / GPT-3.5-Turbo-16K / embeddings / DALL·E / whisper / text-davinci
+支持 gpt-4系列 / gpt-3.5-turbo系列 / gpt-4o系列 / gpt-4o-audio-preview / embeddings / DALL·E / whisper 等
 
 国内动态加速 直连无需代理
 
-[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/render) / [支持付费Key](https://buyca.tech/) / [服务可用性](https://status.chatanywhere.tech/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/render) / [支持付费Key](https://api.chatanywhere.tech/#/shop/) / [服务可用性](https://status.chatanywhere.tech/)
 
 [QQ群: 1003520025](https://qm.qq.com/cgi-bin/qm/qr?k=nOuZUtIT7np8RxMP95EMZZdFPsv3YT_5&jump_from=webapi&authKey=AJ6OT5TbpdTi3BDCoWA2+juN8P72XrfEKrRH4ZCh/VeAdFcR2WjsDrPCxjuj01lQ)
 
@@ -90,7 +90,7 @@
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
-- [购买付费Key](https://buyca.tech/)
+- [购买付费Key](https://api.chatanywhere.tech/#/shop/)
 - [付费版价格表](https://chatanywhere.apifox.cn/doc-2694962)
 
 1. 支持**更稳定更快速的GPT4 API**，GPT4体验更好，无限使用，价格低于官方，充值更便捷。
@@ -100,7 +100,7 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/render) 或 [购买内测付费API Key](https://buyca.tech/)
+- 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/render) 或 [购买内测付费API Key](https://api.chatanywhere.tech/#/shop/)
 - 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)
 - 转发Host2: `https://api.chatanywhere.org` (国外使用)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
