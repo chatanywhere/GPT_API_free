@@ -8,7 +8,7 @@
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/render) / [支持付费Key](https://api.chatanywhere.tech/#/shop/) / [服务可用性](https://status.chatanywhere.tech/)
 
-[QQ群: 1003520025](https://qm.qq.com/cgi-bin/qm/qr?k=nOuZUtIT7np8RxMP95EMZZdFPsv3YT_5&jump_from=webapi&authKey=AJ6OT5TbpdTi3BDCoWA2+juN8P72XrfEKrRH4ZCh/VeAdFcR2WjsDrPCxjuj01lQ)
+[QQ群: 599246660](https://qm.qq.com/cgi-bin/qm/qr?k=gmUR-0pW2VxzkXFiGLgvzOa7Ar01y3Vk&jump_from=webapi&authKey=pPr3pz15zNrM7YiaRklsuDafWclmBxQ/PBLf6DdoYo16p6Li0O9T3jXSZVuuzC1K)
 
 [![](https://status.chatanywhere.org/api/badge/6/uptime/24?labelPrefix=GPT:)](https://status.chatanywhere.tech/)
 [![](https://status.chatanywhere.org/api/badge/10/uptime/24?labelPrefix=GPT-CA系列:)](https://status.chatanywhere.tech/)
@@ -81,8 +81,8 @@
 | gpt-3.5-turbo-instruct | 0.0105 / 1K Tokens | 0.014 / 1K Tokens | 支持 |Completions模型 用于文本生成，提供准确的自然语言处理模型一般人用不上|
 | o1-mini | 0.021 / 1K Tokens | 0.084 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
 | o1-preview | 0.105 / 1K Tokens | 0.42 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
-| o3-mini [5]| 0.0088 / 1K Tokens | 0.0352 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
-| o1 [5]| 0.12 / 1K Tokens | 0.48 / 1K Tokens | 支持 | 针对复杂任务的推理模型,迄今为止最牛的模型 |
+| o3-mini [5]| 0.0121 / 1K Tokens | 0.0484 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
+| o1 [5]| 0.165 / 1K Tokens | 0.66 / 1K Tokens | 支持 | 针对复杂任务的推理模型,迄今为止最牛的模型 |
 | gpt-4 | 0.21 / 1K Tokens | 0.42 / 1K Tokens | 支持 | 默认模型，等于gpt-4-0613 |
 | gpt-4o | 0.0175/1K Tokens + 图片费用[2]| 0.07/1K Tokens| 支持 | Openai 价格更低, 速度更快更聪明,指向最新版的4o版本|
 | gpt-4o-2024-05-13 | 0.035/1K Tokens + 图片费用[2]| 0.105/1K Tokens | 支持 | Openai 2024-05-13出的gpt-4o模型|
