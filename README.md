@@ -1,10 +1,10 @@
 <div align="center">
 <img src="./images/logo.png" alt="icon" width="50px"/>
-<h1 align="center">GPT-API-free</h1>
+<h1 align="center">GPT-API-free / DeepSeek-API-free</h1>
 
-支持 gpt-4系列 / gpt-3.5-turbo系列 / gpt-4o系列 / gpt-4o-audio-preview / embeddings / DALL·E / whisper 等
+免费使用 gpt | deepseek / 支持 gpt | deepseek | claude | gemini | grok
 
-国内动态加速 直连无需代理
+国内动态加速 直连无需代理 协议统一接入便捷
 
 [快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/render) / [支持付费Key](https://api.chatanywhere.tech/#/shop/) / [服务可用性](https://status.chatanywhere.tech/)
 
@@ -27,13 +27,14 @@
 但OpenAI官方会根据其[数据使用政策](https://platform.openai.com/docs/data-usage-policies)保留 30 天的数据。
 
 ## 特点
-1. 支持Models, Embedding, text-davinci(免费版不支持), GPT-3.5-Turbo, GPT-3.5-Turbo-16K(免费版不支持), ***GPT-4***, ***DALLE***(免费版不支持), ***Whisper***(免费版不支持)。（免费版就可以支持AutoGPT, gpt_academic, langchain等）
-2. 免费版支持gpt-4，一天3次；支持gpt-4o-mini，和gpt-3.5-turbo共享一天200次。
+1. 支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。
+2. 免费版支持gpt-4o一天5次；支持deepseek-r1, deepseek-v3一天50次，支持gpt-4o-mini，gpt-3.5-turbo一天200次。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
 6. 无需科学上网，国内环境直接可用。
 7. 个人完全免费使用。
+8. 协议统一使用openai标准协议，其他厂商模型仅需更换模型名称，接入便捷
 
 ## 🚩注意事项
 
@@ -50,8 +51,7 @@
 ## 免费使用
 
 - **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/render)**
-- 免费版支持gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。
-- 免费版gpt-4由gpt-4o提供服务，但免费版暂不支持识图。
+- 免费版支持deepseek, gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4o。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)**
 - **转发Host2: `https://api.chatanywhere.org` (国外使用)**
 
@@ -79,10 +79,16 @@
 | gpt-3.5-turbo-0125 | 0.0035 / 1K Tokens | 0.0105 / 1K Tokens | 支持 | 2024年1月25日最新模型，数据最新，价格更更低，速度更快，修复了一些1106的bug。|
 | gpt-3.5-turbo-16k | 0.021 / 1K Tokens | 0.028 / 1K Tokens | 支持 | 适合快速回答简单问题,字数更多 |
 | gpt-3.5-turbo-instruct | 0.0105 / 1K Tokens | 0.014 / 1K Tokens | 支持 |Completions模型 用于文本生成，提供准确的自然语言处理模型一般人用不上|
+| gpt-4.5-preview | 0.525 / 1K Tokens | 1.05 / 1K Tokens | 支持 | openai最新模型，gpt-4.5 |
+| gpt-4.5-preview-2025-02-27  | 0.525 / 1K Tokens | 1.05 / 1K Tokens | 支持 | openai最新模型，gpt-4.5 |
 | o1-mini | 0.021 / 1K Tokens | 0.084 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
 | o1-preview | 0.105 / 1K Tokens | 0.42 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
-| o3-mini [5]| 0.0121 / 1K Tokens | 0.0484 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
-| o1 [5]| 0.165 / 1K Tokens | 0.66 / 1K Tokens | 支持 | 针对复杂任务的推理模型,迄今为止最牛的模型 |
+| o3-mini [5]| 0.0088 / 1K Tokens | 0.0352 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
+| o1 [5]| 0.12 / 1K Tokens | 0.48 / 1K Tokens | 支持 | 针对复杂任务的推理模型,迄今为止最牛的模型 |
+| gpt-4o-search-preview  | 0.02125/1K Tokens | 0.085/1K Tokens| 支持 | Openai 出的搜索模型,支持网络搜索,指向最新的4o的搜索模型|
+| gpt-4o-search-preview-2025-03-11| 0.02125/1K Tokens | 0.085/1K Tokens| 支持 | Openai 出的搜索模型,支持网络搜索|
+| gpt-4o-mini-search-preview | 0.001275/1K Tokens | 0.0051 /1K Tokens| 支持 | Openai 出的搜索模型,支持网络搜索,指向最新的4o-mini的搜索模型|
+| gpt-4o-mini-search-preview-2025-03-11 |  0.001275/1K Tokens | 0.0051 /1K Tokens| 支持 | Openai 出的搜索模型,支持网络搜索|
 | gpt-4 | 0.21 / 1K Tokens | 0.42 / 1K Tokens | 支持 | 默认模型，等于gpt-4-0613 |
 | gpt-4o | 0.0175/1K Tokens + 图片费用[2]| 0.07/1K Tokens| 支持 | Openai 价格更低, 速度更快更聪明,指向最新版的4o版本|
 | gpt-4o-2024-05-13 | 0.035/1K Tokens + 图片费用[2]| 0.105/1K Tokens | 支持 | Openai 2024-05-13出的gpt-4o模型|
@@ -105,7 +111,10 @@
 | chatgpt-4o-latest-ca | 0.02 / 1K Tokens| 0.06 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的|
 | o1-mini-ca | 0.012 / 1K Tokens | 0.048 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的 |
 | o1-preview-ca | 0.06 / 1K Tokens | 0.24 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的 |
-| deepseek-reasoner | 0.0036  / 1K Tokens | 0.0144 / 1K Tokens | 支持 |deepseek的思考R1模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| deepseek-reasoner | 0.0036  / 1K Tokens | 0.0144 / 1K Tokens | 支持 |deepseek的思考R1模型, 此模型由第三方供应商自己部署提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| deepseek-r1 | 0.0024  / 1K Tokens | 0.0096 / 1K Tokens | 支持 |deepseek的思考R1模型, 此模型由第三方(火山引擎)供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| deepseek-v3 | 0.0012  / 1K Tokens | 0.0048 / 1K Tokens | 支持 |deepseek的聊天模型, 此模型由第三方(火山引擎)供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| claude-3-7-sonnet-20250219 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | claude-3-5-sonnet-20240620 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | claude-3-5-sonnet-20241022 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | claude-3-5-haiku-20241022 | 0.005 / 1K Tokens | 0.025 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
@@ -115,6 +124,9 @@
 | gemini-2.0-flash-exp | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.0-pro-exp-02-05 | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.0-flash | 0.005 / 1K Tokens | 0.02 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| grok-3 | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |grok基础模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| grok-3-reasoner | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |推理增强模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| grok-3-deepsearch | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |深度联网搜索模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 
 | **模型（Model）** | **价格** | **是否支持** |
 | --- | --- | --- |
