@@ -28,7 +28,7 @@
 
 ## 特点
 1. 支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。
-2. 免费版支持gpt-4o一天5次；支持deepseek-r1, deepseek-v3一天50次，支持gpt-4o-mini，gpt-3.5-turbo一天200次。
+2. 免费版支持gpt-4o一天5次；支持deepseek-r1, deepseek-v3一天30次，支持gpt-4o-mini，gpt-3.5-turbo一天200次。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
