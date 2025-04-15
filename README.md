@@ -28,7 +28,7 @@
 
 ## 特点
 1. 支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。
-2. 免费版支持gpt-4o一天5次；支持deepseek-r1, deepseek-v3一天30次，支持gpt-4o-mini，gpt-3.5-turbo一天200次。
+2. 免费版支持gpt-4o，gpt-4.1一天5次；支持deepseek-r1, deepseek-v3一天30次，支持gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano一天200次。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
@@ -74,6 +74,12 @@
 
 | **模型（Model）** | **请求（Input）** | **回答（Output）** | **是否支持** | **特点** |
 | --- | --- | --- | --- | --- |
+| gpt-4.1 | 0.014 / 1K Tokens | 0.056  / 1K Tokens | 支持 | OpenAI最新推出的模型 在编码、指令跟踪和长上下文方面都有重大改进1M输入32k输出 指向gpt-4.1-2025-04-14 |
+| gpt-4.1-2025-04-14 | 0.014 / 1K Tokens | 0.056  / 1K Tokens | 支持 | OpenAI最新推出的模型 在编码、指令跟踪和长上下文方面都有重大改进1M输入32k输出|
+| gpt-4.1-mini | 0.0028 / 1K Tokens | 0.0112  / 1K Tokens | 支持 | OpenAI最新推出的模型 在编码、指令跟踪和长上下文方面都有重大改进1M输入32k输出 指向gpt-4.1-mini-2025-04-14 |
+| gpt-4.1-mini-2025-04-14 | 0.0028 / 1K Tokens | 0.0112  / 1K Tokens | 支持 | OpenAI最新推出的模型 在编码、指令跟踪和长上下文方面都有重大改进1M输入32k输出|
+| gpt-4.1-nano | 0.0007 / 1K Tokens | 0.0028  / 1K Tokens | 支持 | OpenAI最新推出的模型 在编码、指令跟踪和长上下文方面都有重大改进1M输入32k输出 指向gpt-4.1-nano-2025-04-14 |
+| gpt-4.1-nano-2025-04-14 | 0.0007 / 1K Tokens | 0.0028  / 1K Tokens | 支持 | OpenAI最新推出的模型 在编码、指令跟踪和长上下文方面都有重大改进1M输入32k输出|
 | gpt-3.5-turbo | 0.0035 / 1K Tokens | 0.0105 / 1K Tokens | 支持 | 默认模型，等于gpt-3.5-turbo-0125|
 | gpt-3.5-turbo-1106 | 0.007 / 1K Tokens | 0.014 / 1K Tokens | 支持 | 2023年11月6日更新的模型|
 | gpt-3.5-turbo-0125 | 0.0035 / 1K Tokens | 0.0105 / 1K Tokens | 支持 | 2024年1月25日最新模型，数据最新，价格更更低，速度更快，修复了一些1106的bug。|
@@ -124,6 +130,7 @@
 | gemini-2.0-flash-exp | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.0-pro-exp-02-05 | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.0-flash | 0.005 / 1K Tokens | 0.02 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| gemini-2.5-pro-exp-03-25 | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 | 是gemini 最新的旗舰模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-3 | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |grok基础模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-3-reasoner | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |推理增强模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-3-deepsearch | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |深度联网搜索模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
