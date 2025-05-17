@@ -134,6 +134,7 @@
 | gemini-2.0-pro-exp-02-05 | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.0-flash | 0.005 / 1K Tokens | 0.02 / 1K Tokens | 支持 |Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.5-pro-exp-03-25 | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 | 是gemini 最新的旗舰模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| gemini-2.5-pro-preview-05-06 | 0.01 / 1K Tokens | 0.04 / 1K Tokens | 支持 | 是gemini 最新的旗舰模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.5-flash-preview-04-17 | 0.0006 / 1K Tokens | 0.014 / 1K Tokens | 支持 | 是gemini 最新的旗舰模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-3 | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |grok基础模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-3-reasoner | 0.016 / 1K Tokens | 0.08 / 1K Tokens | 支持 |推理增强模型（网页逆向版）, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
@@ -141,6 +142,7 @@
 
 | **模型（Model）** | **价格** | **是否支持** |
 | --- | --- | --- |
+| gpt-image-1 | 文字输入: 0.04CA/1K Tokens, 图片输入: 0.08CA/1K Tokens, 图片输入：0.32 CA/1K Tokens | 支持 |
 | dall-e-3 1024×1024 | 0.280 / image | 支持 |
 | dall-e-3 1024×1792 | 0.560 / image | 支持 |
 | dall-e-3-hd 1024×1024 | 0.560 / image | 支持 |
@@ -150,7 +152,10 @@
 | dall-e-2 256x256 | 0.112 / image | 支持 |
 | tts-1 | 0.105 / 1K characters | 支持 |
 | tts-1-hd | 0.21 / 1K characters | 支持 |
+| gpt-4o-mini-tts | (0.12 / minute) + (0.012 / 1kToken) | 支持 |
 | Whisper | 0.042 / minute | 支持 |
+| gpt-4o-mini-transcribe | 0.024 / minute | 支持 |
+| gpt-4o-transcribe | 0.048 / minute | 支持 |
 | text-embedding-ada-002 | 0.0007 / 1K Tokens | 支持 |
 | text-embedding-3-small | 0.00014 / 1K Tokens | 支持 |
 | text-embedding-3-large | 0.00091 / 1K Tokens | 支持 |
@@ -305,4 +310,4 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://star-history.com/#chatanywhere/GPT_API_free&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://www.star-history.com/#chatanywhere/GPT_API_free&Date)
