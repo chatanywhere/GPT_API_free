@@ -6,7 +6,7 @@
 
 国内动态加速 直连无需代理 协议统一接入便捷
 
-[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/render) / [支持付费Key](https://api.chatanywhere.tech/#/shop/) / [服务可用性](https://status.chatanywhere.tech/)
+[快速开始](#如何使用) / [API文档](https://chatanywhere.apifox.cn/) / [申请内测免费Key](https://api.chatanywhere.tech/v1/oauth/free/render) / [支持付费Key](https://api.chatanywhere.tech/#/shop/) / [服务可用性](https://status.chatanywhere.tech/)
 
 [QQ群: 1048463714](https://qm.qq.com/cgi-bin/qm/qr?k=le3i13O_eeKGPNF0VPJtqnd107z8DI--&jump_from=webapi&authKey=aLSbCQQGSe4a4/4LOglaoo5x5GbJ8QHORIRXdI4ZUT3j84eAE/OgQ+SyafiyNO/p)
 
@@ -50,7 +50,7 @@
 
 ## 免费使用
 
-- **🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/render)**
+- **🚀[申请领取内测免费API Key](https://api.chatanywhere.tech/v1/oauth/free/render)**
 - 免费版支持deepseek, gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4o。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)**
 - **转发Host2: `https://api.chatanywhere.org` (国外使用)**
@@ -186,7 +186,7 @@
 
 ## 如何使用
 - 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[申请领取内测免费API Key](https://api.chatanywhere.org/v1/oauth/free/render) 或 [购买内测付费API Key](https://api.chatanywhere.tech/#/shop/)
+- 🚀[申请领取内测免费API Key](https://api.chatanywhere.tech/v1/oauth/free/render) 或 [购买内测付费API Key](https://api.chatanywhere.tech/#/shop/)
 - 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)
 - 转发Host2: `https://api.chatanywhere.org` (国外使用)
 - 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
