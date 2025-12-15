@@ -88,10 +88,10 @@
 | gpt-5.1-2025-11-13 | 0.00875 / 1K Tokens | 0.07  / 1K Tokens | 支持 | 用于编码和智能体任务的旗舰模型，它具备可配置的推理和非推理能力 |
 | gpt-5.1-chat-latest | 0.00875 / 1K Tokens | 0.07  / 1K Tokens | 支持 | 指向 ChatGPT 当前使用的 GPT-5.1 快照。我们推荐GPT-5.1对于大多数 API 用法，但您可以随意使用此 GPT-5.1 聊天模型来测试我们针对聊天用例的最新改进 |
 | gpt-5.1-codex | 0.00875 / 1K Tokens | 0.07  / 1K Tokens | 支持 | GPT-5.1-Codex 是 GPT-5 的一个版本，针对智能编码任务进行了优化。|
-| gpt-5-search-api | 0.105 / 1K Tokens | 0.07  / 1K Tokens + 搜索费用[6]| 支持 | Openai 出的搜索模型,支持网络搜索,指向最新的gpt-5的搜索模型|
+| gpt-5-search-api | 0.00875 / 1K Tokens | 0.07  / 1K Tokens + 搜索费用[6]| 支持 | Openai 出的搜索模型,支持网络搜索,指向最新的gpt-5的搜索模型|
 | gpt-5 | 0.00875 / 1K Tokens | 0.07  / 1K Tokens | 支持 | GPT-5 是用于跨领域编码、推理和代理任务的旗舰模型 |
-| gpt-5-codex | 0.105 / 1K Tokens | 0.07  / 1K Tokens | 支持 | GPT-5-Codex 是针对代理编码任务优化。它可在 Responses API仅限此版本，底层模型快照将定期更新。 |
-| gpt-5-pro | 0.00875 / 1K Tokens | 0.84  / 1K Tokens | 支持 | 使用更多的计算来更努力地思考，并始终如一地提供更好的答案。此模型回复较慢比较长的问题不建议使用有可能会超时 |
+| gpt-5-codex | 0.00875 / 1K Tokens | 0.07  / 1K Tokens | 支持 | GPT-5-Codex 是针对代理编码任务优化。它可在 Responses API仅限此版本，底层模型快照将定期更新。 |
+| gpt-5-pro | 0.105 / 1K Tokens | 0.84  / 1K Tokens | 支持 | 使用更多的计算来更努力地思考，并始终如一地提供更好的答案。此模型回复较慢比较长的问题不建议使用有可能会超时 |
 | gpt-5-mini | 0.00175 / 1K Tokens | 0.014  / 1K Tokens | 支持 |GPT-5 mini 是 GPT-5 的一个更快、更经济的版本。它非常适合执行定义明确的任务和精准的提示 |
 | gpt-5-nano | 0.00035 / 1K Tokens | 0.0028  / 1K Tokens | 支持 |GPT-5 Nano 是速度最快、成本最低的 GPT-5 版本。它非常适合摘要和分类任务 |
 | gpt-5-chat-latest |0.00875 / 1K Tokens | 0.07 / 1K Tokens | 支持 | GPT-5 Chat 指的是 ChatGPT 当前使用的 GPT-5 快照|
