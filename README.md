@@ -378,5 +378,26 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 ![](images/jet2.png)
 
 
+### **Raycast 插件 ChatGPT**
+
+1. 在 Raycast Store 中找到 ChatGPT 插件，并按照提示安装：
+![](images/raycast1.png)
+
+2. 安装完成后在该插件配置中的 `API Key` 中填入我们的API Key，以及选中 `Change API Endpoint`，并在 `API Endpoint` 中填入 `https://api.chatanywhere.tech/v1`
+![](images/raycast2.png)
+![](images/raycast3.png)
+
+3. 🍺 enjoy it~
+
+![](images/raycast4.gif)
+
+
+### **Tampermonkey 插件 Codeforces Better!**
+
+1. 在 codeforces 网页右上角点击 `Codeforces Better! 设置`，找到 翻译 > ChatGPT > 配置管理 > + 添加，如图填写 key 和 Proxy API 项：
+   ![](images/cf better1.png)
+
+2. 完成后设置为 ChatGPT 翻译即可。
+   ![](images/cf better2.png)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://www.star-history.com/#chatanywhere/GPT_API_free&Date)
