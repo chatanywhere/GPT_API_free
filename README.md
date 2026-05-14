@@ -317,6 +317,35 @@
 
 [文档-常用软件使用教程](https://chatanywhere.apifox.cn/doc-5547696)
 
+## 本地 llama.cpp / Hermes 配置备忘（仅本机）
+
+- 本地 OpenAI 兼容主接口：`http://127.0.0.1:11434/v1`
+- Hermes / 本地客户端兼容入口：`http://127.0.0.1:8080/v1`
+- Open WebUI：`http://127.0.0.1:3001`
+- Hermes Dashboard：`http://127.0.0.1:9119`
+
+### 关键文件
+
+- `~/.config/systemd/user/llama-server.service`：本地 `llama-server` 用户服务（当前使用 `--ctx-size 16384 --parallel 1`）
+- `~/.config/systemd/user/llama-openai-compat-8080.socket` 与 `~/.config/systemd/user/llama-openai-compat-8080.service`：将 `127.0.0.1:8080` 代理到本地 `llama-server`
+- `~/.config/llama.cpp/api.key`：现有本地客户端使用的 key 文件
+- `~/.config/llama.cpp/external-api.key`：给其他兼容客户端/代理使用的额外 key 文件
+- `~/.config/llama.cpp/api.keys`：`llama-server` 当前读取的多 key keyring 文件
+- `~/.hermes/config.yaml`：Hermes 默认走本地 provider；容器内使用 `http://host.docker.internal:8080/v1`
+
+### 当前约定
+
+- 默认模型别名：`gpt-4o-mini`
+- Hermes 默认 provider：`local`
+- Hermes 为适配本地模型做了上下文长度覆盖；`llama-server` 实际运行上下文仍以服务参数为准
+- 临时 Cloudflare quick tunnel 已关闭；如需再次对外暴露，请重新创建 tunnel，不要继续使用旧的 `trycloudflare` 地址
+
+### 快速自检
+
+- `systemctl --user status llama-server`
+- `curl http://127.0.0.1:8080/health`
+- `docker ps --filter name=^/hermes$`
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://www.star-history.com/#chatanywhere/GPT_API_free&Date)
