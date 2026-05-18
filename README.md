@@ -317,6 +317,46 @@
 
 [文档-常用软件使用教程](https://docs.chatanywhere.tech/doc-5547696)
 
+## 本地 llama.cpp / Hermes 配置备忘（仅本机）
+
+- 本地 OpenAI 兼容主接口：`http://127.0.0.1:11434/v1`
+- 原始兼容入口（保留）：`http://127.0.0.1:8080/v1`
+- Hermes 当前实际使用入口：`http://127.0.0.1:8081/v1`
+- Open WebUI：`http://127.0.0.1:3001`
+- Hermes Dashboard：`http://127.0.0.1:9119`
+
+### 关键文件
+
+- `~/.config/systemd/user/llama-server.service`：本地 `llama-server` 用户服务（当前使用 `--ctx-size 16384 --parallel 1`）
+- `~/.config/systemd/user/llama-openai-compat-8080.socket` 与 `~/.config/systemd/user/llama-openai-compat-8080.service`：保留原始 `127.0.0.1:8080` 兼容入口，直接转发到本地 `llama-server`
+- `~/.local/bin/llama-openai-toolcall-proxy.py`：本地工具调用标准化代理，将模型输出的伪工具调用 JSON 转换为 OpenAI 风格 `tool_calls`
+- `~/.config/systemd/user/llama-openai-toolcall-proxy-8081.service`：监听 `127.0.0.1:8081`，供 Hermes / Dashboard 使用
+- `~/.config/llama.cpp/api.key`：现有本地客户端使用的 key 文件
+- `~/.config/llama.cpp/external-api.key`：给其他兼容客户端/代理使用的额外 key 文件
+- `~/.config/llama.cpp/api.keys`：`llama-server` 当前读取的多 key keyring 文件
+- `~/.hermes/config.yaml`：Hermes 默认走本地 provider；容器内已切到 `http://host.docker.internal:8081/v1`
+- `/opt/hermes/hermes_cli/web_server.py`：Dashboard PTY 启动入口，负责给 TUI 注入启动提示环境变量
+- `/opt/hermes/ui-tui/src/app/createGatewayEventHandler.ts`：启动时优先使用注入提示，避开常见路径上的阻塞 `config.get(full)`
+- `/opt/hermes/ui-tui/src/app/useSessionLifecycle.ts`：减少额外 `setup.status` 往返，并将 lazy `session.create` 结果直接视为可用状态
+
+### 当前约定
+
+- 默认模型别名：`gpt-4o-mini`
+- Hermes 默认 provider：`local`
+- Hermes Dashboard / 浏览器聊天当前走 `8081`，因为本地模型会把工具调用写成普通文本 JSON；代理层负责在本机把它整理成标准 `tool_calls`
+- `8080` 仍然保留给原始兼容流量；如果要排查模型原始输出，优先看 `8080`；如果要排查 Hermes 浏览器聊天，优先看 `8081`
+- Dashboard 启动阶段已移除常见路径上的阻塞配置读取，并提前使用 lazy session 结果，因此界面会先进入可交互状态；后续 `session.info` 补充事件仍可能稍晚到达
+- Hermes 为适配本地模型做了上下文长度覆盖；`llama-server` 实际运行上下文仍以服务参数为准
+- 临时 Cloudflare quick tunnel 已关闭；如需再次对外暴露，请重新创建 tunnel，不要继续使用旧的 `trycloudflare` 地址
+
+### 快速自检
+
+- `systemctl --user status llama-server`
+- `systemctl --user status llama-openai-toolcall-proxy-8081`
+- `curl http://127.0.0.1:8080/health`
+- `journalctl --user -u llama-openai-toolcall-proxy-8081.service --no-pager -n 20`
+- `docker ps --filter name=^/hermes$`
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://www.star-history.com/#chatanywhere/GPT_API_free&Date)
