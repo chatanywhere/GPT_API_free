@@ -313,6 +313,33 @@
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.tech才可以使用，大部分插件和软件都可以修改。
 - 遇到问题可以前往[ChatAnywhere Status](https://status.chatanywhere.tech/)查看接口可用性。
 
+### OpenAI Node.js SDK
+
+支持 OpenAI 官方 Node.js SDK。使用时需要把 `baseURL` 设置为 ChatAnywhere 的转发地址，并通过环境变量传入 API Key，避免把 Key 写进代码：
+
+```js
+import OpenAI from "openai";
+
+const client = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+  baseURL: process.env.OPENAI_BASE_URL || "https://api.chatanywhere.tech/v1",
+});
+
+const completion = await client.chat.completions.create({
+  model: "gpt-4o-mini",
+  messages: [{ role: "user", content: "Say this is a test" }],
+});
+
+console.log(completion.choices[0].message.content);
+```
+
+如果 Node.js SDK 报 `APIConnectionError`、`fetch failed` 或 `ECONNRESET`，通常是当前运行环境到所选 Host 的网络连接被重置。请先检查 [ChatAnywhere Status](https://status.chatanywhere.tech/)，再在两个转发 Host 之间切换测试：
+
+- `https://api.chatanywhere.tech/v1`：国内首选
+- `https://api.chatanywhere.org/v1`：国外使用
+
+完整示例见 [demo/demo_nodejs.js](./demo/demo_nodejs.js)。
+
 ## 常见软件使用方法
 
 [文档-常用软件使用教程](https://docs.chatanywhere.tech/doc-5547696)
