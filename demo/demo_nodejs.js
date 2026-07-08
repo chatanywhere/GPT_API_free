@@ -4,20 +4,30 @@ npm install openai
 
 Run:
 set OPENAI_API_KEY=your_key
+set OPENAI_BASE_URL=https://api.chatanywhere.tech/v1
 node demo/demo_nodejs.js
 */
 
 import OpenAI from "openai";
 
+const apiKey = process.env.OPENAI_API_KEY;
+const baseURL = process.env.OPENAI_BASE_URL || "https://api.chatanywhere.tech/v1";
+const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
+
+if (!apiKey) {
+  throw new Error("Please set OPENAI_API_KEY before running this demo.");
+}
+
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || "YOUR API KEY",
-  baseURL: "https://api.chatanywhere.tech/v1",
+  apiKey,
+  baseURL,
+  timeout: 60_000,
 });
 
-// Non-stream response
-async function gpt35Api(messages) {
+// Normal response
+async function chatApi(messages) {
   const completion = await client.chat.completions.create({
-    model: "gpt-3.5-turbo",
+    model,
     messages,
   });
 
@@ -25,9 +35,9 @@ async function gpt35Api(messages) {
 }
 
 // Stream response
-async function gpt35ApiStream(messages) {
+async function chatApiStream(messages) {
   const stream = await client.chat.completions.create({
-    model: "gpt-3.5-turbo",
+    model,
     messages,
     stream: true,
   });
@@ -46,9 +56,19 @@ async function gpt35ApiStream(messages) {
     { role: "user", content: "What is the relationship between Lu Xun and Zhou Shuren?" },
   ];
 
-  // Non-stream call
-  // await gpt35Api(messages);
+  try {
+    console.log(`Using ${baseURL} with model ${model}`);
 
-  // Stream call
-  await gpt35ApiStream(messages);
+    // Normal call
+    // await chatApi(messages);
+
+    // Stream call
+    await chatApiStream(messages);
+  } catch (error) {
+    console.error(error);
+    console.error(
+      "\nIf this is an APIConnectionError or ECONNRESET, verify that your runtime can access the selected ChatAnywhere host. Try switching OPENAI_BASE_URL between https://api.chatanywhere.tech/v1 and https://api.chatanywhere.org/v1, then check https://status.chatanywhere.tech/."
+    );
+    process.exitCode = 1;
+  }
 })();
