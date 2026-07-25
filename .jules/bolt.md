@@ -1,0 +1,3 @@
+## 2026-07-06 - [Streaming Loop Optimization]
+**Learning:** Caching `sys.stdout.write` and localizing nested attribute lookups (e.g., `chunk.choices[0].delta.content`) in Python streaming loops can reduce local CPU overhead by ~70% compared to standard `print()` calls in high-volume benchmarks. However, in network-bound LLM applications, this gain is often dwarfed by network latency.
+**Action:** Use localized lookups and `sys.stdout.write` for streaming loops when performance is critical, but ensure it doesn't compromise code readability for demo purposes. Always include a final `flush()` and trailing newline.

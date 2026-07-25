@@ -1,3 +1,4 @@
+import sys
 from openai import OpenAI
 
 client = OpenAI(
@@ -29,9 +30,14 @@ def gpt_35_api_stream(messages: list):
         messages=messages,
         stream=True,
     )
+    # Using sys.stdout.write and localizing lookups for performance
+    write = sys.stdout.write
     for chunk in stream:
-        if chunk.choices[0].delta.content is not None:
-            print(chunk.choices[0].delta.content, end="")
+        content = chunk.choices[0].delta.content
+        if content is not None:
+            write(content)
+    write("\n")
+    sys.stdout.flush()
 
 if __name__ == '__main__':
     messages = [{'role': 'user','content': '鲁迅和周树人的关系'},]
